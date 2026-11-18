@@ -14,6 +14,7 @@ Jason Rinaldi co-runs **Fluid Experiences** (basketball development: small-group
 - Bank one month ahead: in late Nov, bank December ("don't lose your touch over summer": Fluid runs, home programs); in Dec, bank January (goals, handles launch, parent workshop, testing, Aus Day).
 - Highlights = reach: raw tripod reps plus one teaching line; collab with Jay, not Fluid. Parent, client and junior-development posts collab with Fluid.
 - Jason's call (18 Nov): the point guard video speaks to players.
+- Jason's framing rule: action in frame is the priority. He's fine with varying framing between clips. Claude chose the fixed 4:5 window (checked: players, ball and rim stay in shot); if a shot ever trims the action, fall back to his original framing for that shot.
 
 ## Editor
 - `python3 studio/editor.py studio/scripts/<id>.json [--preview]`: motion-tracked 9:16 reframe of wide 16:9 gym footage, text cards, end card, −14 LUFS. Outputs to `studio/out/`.
