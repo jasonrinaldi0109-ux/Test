@@ -15,6 +15,8 @@ Jason Rinaldi co-runs **Fluid Experiences** (basketball development: small-group
 - Highlights = reach: raw tripod reps plus one teaching line; collab with Jay, not Fluid. Parent, client and junior-development posts collab with Fluid.
 - Jason's call (18 Nov): the point guard video speaks to players.
 - Jason's editing rules (18 Nov): every rep runs to its outcome (make, miss or turnover), never cut before it. Keep on-screen text small (script `text_size` ~50, `text_y` 300). One point per full rep.
+- Jason's own edits: he zooms in on a clip, then splits it into 2–3 cuts and moves the frame as the ball moves. Treat those splits as ONE rep (not separate clips), keep his framing (framed mode, zoom 1.0) and don't re-track over it. In "jasons edit of monday workout .mov", 7.0–22.7 s is the pressure-dribbling clip (red vs blue). More contact dribbling at 0.0–2.0, 61–64, 138.6–141 and 151.5–153.3.
+- Point guard video v3 opens with 9 quick 1.1 s cuts of dribbling under pressure ("everyone's watching, waiting on you to lead"), the voiceover chunked per cut so the subtitles stay short.
 - Fluid.mov drill reps (ball starts right, 1v1 down the middle corridor, then finish or hand-off/off-ball screen): 0:19.2–0:25.4 (elbow pull-up), 0:47–0:53 (contact 1v1, pull-up), 1:00.8–1:09.6 (long contact 1v1, fade), 1:17.2–1:20.6 (blow-by layup), 1:39.6–1:48.9 (hand-off, then a shot at the rim).
 - Jason's framing rule: action in frame is the priority. He's fine with varying framing between clips. Claude chose the fixed 4:5 window (checked: players, ball and rim stay in shot); if a shot ever trims the action, fall back to his original framing for that shot.
 

@@ -1,13 +1,13 @@
 {
   "id": "s6-point-guard",
-  "title": "The point guard job (v2)",
+  "title": "The point guard job (v3)",
   "type": "Value",
   "audience": "Players",
   "blueprint": "Value / belief post: 'PG is glorified' → it's the hardest job. Bank: December (evergreen)",
   "goal": "Three questions every point guard has to answer, each shown with one full rep from the Monday drill (start on the right, 1v1 down the middle, finish or hand-off)",
   "cta": "Send this to your point guard",
   "hooks": [
-    "Everyone wants to be the point guard. Few know what the job is.",
+    "Everyone wants to be the point guard. Until the ball's in your hands and everyone's waiting on you to lead.",
     "Think you're a point guard because you dribble the most?",
     "Point guard is the most glorified spot on the floor. It's also the hardest."
   ],
@@ -17,13 +17,103 @@
   "text_y": 300,
   "shots": [
     {
+      "src": "jasons edit.mov",
+      "in": 17.25,
+      "dur": 1.1,
+      "zoom": 1.0,
+      "vo": "Everyone wants to be",
+      "text": "Everyone's watching you",
+      "accent": "watching",
+      "text_delay": 0.15
+    },
+    {
+      "src": "jasons edit.mov",
+      "in": 8.5,
+      "dur": 1.1,
+      "zoom": 1.0,
+      "vo": "the point guard.",
+      "text": "Everyone's watching you",
+      "accent": "watching",
+      "text_delay": 0
+    },
+    {
+      "src": "jasons edit.mov",
+      "in": 61.1,
+      "dur": 1.1,
+      "zoom": 1.0,
+      "vo": "Until the ball's in your hands,",
+      "text": "Everyone's watching you",
+      "accent": "watching",
+      "text_delay": 0
+    },
+    {
+      "src": "jasons edit.mov",
+      "in": 12.5,
+      "dur": 1.1,
+      "zoom": 1.0,
+      "vo": "someone's in your chest,",
+      "text": "Everyone's watching you",
+      "accent": "watching",
+      "text_delay": 0
+    },
+    {
+      "src": "jasons edit.mov",
+      "in": 138.7,
+      "dur": 1.1,
+      "zoom": 1.0,
+      "vo": "and everyone's watching,",
+      "text": "Everyone's watching you",
+      "accent": "watching",
+      "text_delay": 0
+    },
+    {
+      "src": "jasons edit.mov",
+      "in": 20.5,
+      "dur": 1.1,
+      "zoom": 1.0,
+      "vo": "waiting",
+      "text": "Everyone's watching you",
+      "accent": "watching",
+      "text_delay": 0
+    },
+    {
+      "src": "jasons edit.mov",
+      "in": 151.6,
+      "dur": 1.1,
+      "zoom": 1.0,
+      "vo": "on you",
+      "text": "Everyone's watching you",
+      "accent": "watching",
+      "text_delay": 0
+    },
+    {
+      "src": "jasons edit.mov",
+      "in": 10.25,
+      "dur": 1.1,
+      "zoom": 1.0,
+      "vo": "to lead.",
+      "text": "Everyone's watching you",
+      "accent": "watching",
+      "text_delay": 0
+    },
+    {
+      "src": "jasons edit.mov",
+      "in": 0.2,
+      "dur": 1.1,
+      "zoom": 1.0,
+      "vo": "",
+      "text": "Everyone's watching you",
+      "accent": "watching",
+      "text_delay": 0
+    },
+    {
       "src": "Fluid.mov",
       "in": 77.2,
       "dur": 3.4,
       "zoom": 1.15,
-      "vo": "Everyone wants to be the point guard. Few know what the job is.",
-      "text": "Everyone wants to be the point guard",
-      "accent": "point",
+      "vo": "Few know what the job actually is.",
+      "text": "Few know the job",
+      "accent": "job",
       "smooth": 0.4,
       "x_keys": [
         [
@@ -42,8 +132,8 @@
     },
     {
       "src": "Fluid.mov",
-      "in": 60.8,
-      "dur": 8.8,
+      "in": 61.3,
+      "dur": 8.3,
       "zoom": 1.35,
       "vo": "It comes down to three questions. One: can you protect the ball and handle pressure?",
       "text": "1 · Protect the ball & handle pressure",
@@ -83,8 +173,8 @@
     },
     {
       "src": "Fluid.mov",
-      "in": 47.0,
-      "dur": 6.0,
+      "in": 47.2,
+      "dur": 5.4,
       "zoom": 1.35,
       "vo": "Most players only train the first two. Number three is the job.",
       "text": "That's the job",
@@ -96,5 +186,6 @@
     "main": "Send this to your point guard",
     "sub": "Fluid Experiences",
     "dur": 2.6
-  }
+  },
+  "note_reframes": "Montage clips come from Jason's edit (framed 4:5 window, his framing kept, zoom 1.0)."
 }
