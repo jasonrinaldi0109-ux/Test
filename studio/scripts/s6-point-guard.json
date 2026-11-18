@@ -1,13 +1,13 @@
 {
   "id": "s6-point-guard",
-  "title": "The point guard job (v3)",
+  "title": "The point guard job (v4)",
   "type": "Value",
   "audience": "Players",
   "blueprint": "Value / belief post: 'PG is glorified' → it's the hardest job. Bank: December (evergreen)",
   "goal": "Three questions every point guard has to answer, each shown with one full rep from the Monday drill (start on the right, 1v1 down the middle, finish or hand-off)",
   "cta": "Send this to your point guard",
   "hooks": [
-    "Everyone wants to be the point guard. Until the ball's in your hands and everyone's waiting on you to lead.",
+    "Everyone wants to be the point guard. Ball in your hands, running the show.",
     "Think you're a point guard because you dribble the most?",
     "Point guard is the most glorified spot on the floor. It's also the hardest."
   ],
@@ -18,117 +18,53 @@
   "shots": [
     {
       "src": "jasons edit.mov",
-      "in": 17.25,
-      "dur": 1.1,
+      "in": 0.0,
+      "dur": 7.0,
       "zoom": 1.0,
-      "vo": "Everyone wants to be",
-      "text": "Everyone's watching you",
-      "accent": "watching",
-      "text_delay": 0.15
+      "vo": "Everyone wants to be the point guard. Ball in your hands, running the show.",
+      "text_delay": 0.15,
+      "text": "Everyone wants to be the point guard",
+      "accent": "point"
     },
     {
       "src": "jasons edit.mov",
-      "in": 8.5,
-      "dur": 1.1,
+      "in": 7.0,
+      "dur": 2.6,
       "zoom": 1.0,
-      "vo": "the point guard.",
-      "text": "Everyone's watching you",
-      "accent": "watching",
-      "text_delay": 0
+      "vo": "Until someone's in your chest,",
+      "text_delay": 0.15,
+      "text": "Everyone's watching",
+      "accent": "watching"
     },
     {
       "src": "jasons edit.mov",
-      "in": 61.1,
-      "dur": 1.1,
+      "in": 141.2,
+      "dur": 4.4,
       "zoom": 1.0,
-      "vo": "Until the ball's in your hands,",
-      "text": "Everyone's watching you",
-      "accent": "watching",
-      "text_delay": 0
+      "vo": "and you cough it up, with everyone watching.",
+      "text_delay": 0,
+      "text": "Everyone's watching",
+      "accent": "watching"
     },
     {
       "src": "jasons edit.mov",
-      "in": 12.5,
-      "dur": 1.1,
+      "in": 17.5,
+      "dur": 2.5,
       "zoom": 1.0,
-      "vo": "someone's in your chest,",
-      "text": "Everyone's watching you",
-      "accent": "watching",
-      "text_delay": 0
+      "vo": "Your team's waiting on you to lead.",
+      "text_delay": 0,
+      "text": "Everyone's watching",
+      "accent": "watching"
     },
     {
       "src": "jasons edit.mov",
-      "in": 138.7,
-      "dur": 1.1,
+      "in": 85.0,
+      "dur": 2.8,
       "zoom": 1.0,
-      "vo": "and everyone's watching,",
-      "text": "Everyone's watching you",
-      "accent": "watching",
-      "text_delay": 0
-    },
-    {
-      "src": "jasons edit.mov",
-      "in": 20.5,
-      "dur": 1.1,
-      "zoom": 1.0,
-      "vo": "waiting",
-      "text": "Everyone's watching you",
-      "accent": "watching",
-      "text_delay": 0
-    },
-    {
-      "src": "jasons edit.mov",
-      "in": 151.6,
-      "dur": 1.1,
-      "zoom": 1.0,
-      "vo": "on you",
-      "text": "Everyone's watching you",
-      "accent": "watching",
-      "text_delay": 0
-    },
-    {
-      "src": "jasons edit.mov",
-      "in": 10.25,
-      "dur": 1.1,
-      "zoom": 1.0,
-      "vo": "to lead.",
-      "text": "Everyone's watching you",
-      "accent": "watching",
-      "text_delay": 0
-    },
-    {
-      "src": "jasons edit.mov",
-      "in": 0.2,
-      "dur": 1.1,
-      "zoom": 1.0,
-      "vo": "",
-      "text": "Everyone's watching you",
-      "accent": "watching",
-      "text_delay": 0
-    },
-    {
-      "src": "Fluid.mov",
-      "in": 77.2,
-      "dur": 3.4,
-      "zoom": 1.15,
-      "vo": "Few know what the job actually is.",
-      "text": "Few know the job",
-      "accent": "job",
-      "smooth": 0.4,
-      "x_keys": [
-        [
-          1.5,
-          0.56
-        ],
-        [
-          2.3,
-          0.49
-        ],
-        [
-          3.4,
-          0.47
-        ]
-      ]
+      "vo": "That's the part nobody shows you.",
+      "text_delay": 0,
+      "text": "Everyone's watching",
+      "accent": "watching"
     },
     {
       "src": "Fluid.mov",
@@ -174,7 +110,7 @@
     {
       "src": "Fluid.mov",
       "in": 47.2,
-      "dur": 5.4,
+      "dur": 4.6,
       "zoom": 1.35,
       "vo": "Most players only train the first two. Number three is the job.",
       "text": "That's the job",
@@ -187,5 +123,5 @@
     "sub": "Fluid Experiences",
     "dur": 2.6
   },
-  "note_reframes": "Montage clips come from Jason's edit (framed 4:5 window, his framing kept, zoom 1.0)."
+  "structure": "Follows Jason's Dropbox edit: his first clip in full → pressure and turnover clips → the three things point guards need"
 }
