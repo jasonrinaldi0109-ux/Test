@@ -1,6 +1,6 @@
 {
   "id": "s6-point-guard",
-  "title": "The point guard job (v4)",
+  "title": "The point guard job (v5)",
   "type": "Value",
   "audience": "Players",
   "blueprint": "Value / belief post: 'PG is glorified' → it's the hardest job. Bank: December (evergreen)",
@@ -22,7 +22,6 @@
       "dur": 7.0,
       "zoom": 1.0,
       "vo": "Everyone wants to be the point guard. Ball in your hands, running the show.",
-      "text_delay": 0.15,
       "text": "Everyone wants to be the point guard",
       "accent": "point"
     },
@@ -109,13 +108,27 @@
     },
     {
       "src": "Fluid.mov",
-      "in": 47.2,
-      "dur": 4.6,
-      "zoom": 1.35,
-      "vo": "Most players only train the first two. Number three is the job.",
+      "in": 77.0,
+      "dur": 3.8,
+      "zoom": 1.15,
+      "smooth": 0.4,
+      "x_keys": [
+        [
+          1.7,
+          0.56
+        ],
+        [
+          2.5,
+          0.49
+        ],
+        [
+          3.8,
+          0.47
+        ]
+      ],
+      "vo": "Most only train the first two. Three is the job.",
       "text": "That's the job",
-      "accent": "job",
-      "smooth": 0.5
+      "accent": "job"
     }
   ],
   "end_card": {
@@ -123,5 +136,5 @@
     "sub": "Fluid Experiences",
     "dur": 2.6
   },
-  "structure": "Follows Jason's Dropbox edit: his first clip in full → pressure and turnover clips → the three things point guards need"
+  "structure": "Jason's opener in full (red shorts downhill, moves, jump shot over blue, walk back) → pressure and turnover clips → the three points → close on the blow-by layup (a make)"
 }
