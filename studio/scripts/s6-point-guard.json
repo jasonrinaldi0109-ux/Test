@@ -1,103 +1,95 @@
 {
   "id": "s6-point-guard",
-  "title": "The point guard job",
+  "title": "The point guard job (v2)",
   "type": "Value",
   "audience": "Players",
   "blueprint": "Value / belief post: 'PG is glorified' → it's the hardest job. Bank: December (evergreen)",
-  "goal": "Shift the belief that point guard is the glamour spot; show the six things the job asks, with real reps from the Monday session",
+  "goal": "Three questions every point guard has to answer, each shown with one full rep from the Monday drill (start on the right, 1v1 down the middle, finish or hand-off)",
   "cta": "Send this to your point guard",
   "hooks": [
-    "Everyone wants to be the point guard. Not many want the work.",
-    "Think you're a point guard because you dribble the most? Watch this.",
+    "Everyone wants to be the point guard. Few know what the job is.",
+    "Think you're a point guard because you dribble the most?",
     "Point guard is the most glorified spot on the floor. It's also the hardest."
   ],
-  "open_loop": "Most players skip number six.",
-  "close_loop": "Dribbling's the easy part. Handling pressure and making the play: that's the job.",
+  "open_loop": "It comes down to three questions.",
+  "close_loop": "Most players only train the first two. Number three is the job.",
+  "text_size": 50,
+  "text_y": 300,
   "shots": [
     {
-      "src": "jasons edit.mov",
-      "in": 0.0,
+      "src": "Fluid.mov",
+      "in": 77.2,
       "dur": 3.4,
-      "zoom": 1.0,
-      "vo": "Everyone wants to be the point guard.",
+      "zoom": 1.15,
+      "vo": "Everyone wants to be the point guard. Few know what the job is.",
       "text": "Everyone wants to be the point guard",
-      "accent": "point"
+      "accent": "point",
+      "smooth": 0.4,
+      "x_keys": [
+        [
+          1.5,
+          0.56
+        ],
+        [
+          2.3,
+          0.49
+        ],
+        [
+          3.4,
+          0.47
+        ]
+      ]
     },
     {
-      "src": "jasons edit.mov",
-      "in": 7.4,
-      "dur": 3.4,
-      "zoom": 1.0,
-      "vo": "Not many want the work that comes with it.",
-      "text": "Not many want the work",
-      "accent": "work"
+      "src": "Fluid.mov",
+      "in": 60.8,
+      "dur": 8.8,
+      "zoom": 1.35,
+      "vo": "It comes down to three questions. One: can you protect the ball and handle pressure?",
+      "text": "1 · Protect the ball & handle pressure",
+      "smooth": 0.5
     },
     {
-      "src": "jasons edit.mov",
-      "in": 11.0,
-      "dur": 4.2,
-      "zoom": 1.0,
-      "vo": "Here's what the job really asks. Most players skip number six.",
-      "text": "Most skip No. 6",
-      "accent": "6"
+      "src": "Fluid.mov",
+      "in": 19.2,
+      "dur": 6.2,
+      "zoom": 1.35,
+      "vo": "Two: can you break down your player and get to your spot?",
+      "text": "2 · Break down your player, get to your spot",
+      "smooth": 0.5
     },
     {
-      "src": "jasons edit.mov",
-      "in": 123.5,
-      "dur": 3.4,
-      "zoom": 1.0,
-      "vo": "One: protect the ball when they're all over you.",
-      "text": "1. Protect the ball"
+      "src": "Fluid.mov",
+      "in": 99.6,
+      "dur": 9.3,
+      "zoom": 1.15,
+      "vo": "Three: can you initiate the offence and make plays under pressure? Into the hand-off, read it, make the right play.",
+      "text": "3 · Initiate the offence & make the play",
+      "smooth": 0.4,
+      "x_keys": [
+        [
+          6.2,
+          0.6
+        ],
+        [
+          7.4,
+          0.5
+        ],
+        [
+          9.3,
+          0.47
+        ]
+      ]
     },
     {
-      "src": "jasons edit.mov",
-      "in": 61.0,
-      "dur": 3.2,
-      "zoom": 1.0,
-      "vo": "Two: break your player down.",
-      "text": "2. Break them down"
-    },
-    {
-      "src": "jasons edit.mov",
-      "in": 80.0,
-      "dur": 3.4,
-      "zoom": 1.0,
-      "vo": "Three: get past your defender in the half court.",
-      "text": "3. Get past your player"
-    },
-    {
-      "src": "jasons edit.mov",
-      "in": 103.4,
-      "dur": 3.0,
-      "zoom": 1.0,
-      "vo": "Four: get downhill in the full court.",
-      "text": "4. Get downhill"
-    },
-    {
-      "src": "jasons edit.mov",
-      "in": 66.6,
-      "dur": 2.8,
-      "zoom": 1.0,
-      "vo": "Five: knock down the shot.",
-      "text": "5. Hit the shot"
-    },
-    {
-      "src": "jasons edit.mov",
-      "in": 55.5,
-      "dur": 5.0,
-      "zoom": 1.3,
-      "vo": "Six: take all that pressure, start the offence, and make the right play.",
-      "text": "6. Make the play",
-      "accent": "play"
-    },
-    {
-      "src": "jasons edit.mov",
-      "in": 15.6,
-      "dur": 5.6,
-      "zoom": 1.0,
-      "vo": "Dribbling's the easy part. Handling pressure and making the play: that's the job.",
+      "src": "Fluid.mov",
+      "in": 47.0,
+      "dur": 6.0,
+      "zoom": 1.35,
+      "vo": "Most players only train the first two. Number three is the job.",
       "text": "That's the job",
-      "accent": "job"
+      "accent": "job",
+      "smooth": 0.5
     }
   ],
   "end_card": {

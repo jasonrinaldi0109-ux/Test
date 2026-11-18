@@ -14,12 +14,15 @@ Jason Rinaldi co-runs **Fluid Experiences** (basketball development: small-group
 - Bank one month ahead: in late Nov, bank December ("don't lose your touch over summer": Fluid runs, home programs); in Dec, bank January (goals, handles launch, parent workshop, testing, Aus Day).
 - Highlights = reach: raw tripod reps plus one teaching line; collab with Jay, not Fluid. Parent, client and junior-development posts collab with Fluid.
 - Jason's call (18 Nov): the point guard video speaks to players.
+- Jason's editing rules (18 Nov): every rep runs to its outcome (make, miss or turnover), never cut before it. Keep on-screen text small (script `text_size` ~50, `text_y` 300). One point per full rep.
+- Fluid.mov drill reps (ball starts right, 1v1 down the middle corridor, then finish or hand-off/off-ball screen): 0:19.2–0:25.4 (elbow pull-up), 0:47–0:53 (contact 1v1, pull-up), 1:00.8–1:09.6 (long contact 1v1, fade), 1:17.2–1:20.6 (blow-by layup), 1:39.6–1:48.9 (hand-off, then a shot at the rim).
 - Jason's framing rule: action in frame is the priority. He's fine with varying framing between clips. Claude chose the fixed 4:5 window (checked: players, ball and rim stay in shot); if a shot ever trims the action, fall back to his original framing for that shot.
 
 ## Editor
 - `python3 studio/editor.py studio/scripts/<id>.json [--preview]`: motion-tracked 9:16 reframe of wide 16:9 gym footage, text cards, end card, −14 LUFS. Outputs to `studio/out/`.
 - Voiceover: put `studio/vo/<id>.m4a` → re-run → subtitles from the script's `vo` lines, gym sound ducked to −20 dB. `studio/build/<id>/vo-guide.txt` has the timing windows for recording.
 - Already-vertical letterboxed sources (e.g. "jasons edit of monday workout .mov") are cut in a fixed 4:5 window (y 285–1635) on the brand dark, with tracking inside the window. Keep each shot inside one of his clips: boundaries shift the letterbox height.
+- Tracking follows the moving group that holds the orange ball. Per-shot `smooth` (seconds, default 0.7; 0.4 for fast reps) and `x_keys` [[t, x 0..1], ...] pin the camera where the tracker drifts. The rim in Fluid.mov sits at x ≈ 0.48–0.5. Always check finishes on a contact sheet: the tracker can leave the shot before the ball reaches the rim.
 - Brand colours in `studio/brand.json` are PLACEHOLDERS until Jason confirms.
 - Content Studio page (scripts, drafts, Jason's answers): https://claude.ai/artifact/PGB9gATaixBgHV2pTUnPZ7. Read answers with ArtifactData `list` on `ideas` and `questions`.
 

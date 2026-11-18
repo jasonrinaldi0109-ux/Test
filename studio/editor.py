@@ -28,7 +28,7 @@ def load_brand():
 
 
 # ---------------------------------------------------------------- tracking
-def track_action(src, t_in, dur, analyse_fps=8):
+def track_action(src, t_in, dur, analyse_fps=8, smooth=0.7, keys=None):
     """Return per-output-frame (cx, cy) in source pixels, following motion."""
     cap = cv2.VideoCapture(str(src))
     sw, sh = cap.get(cv2.CAP_PROP_FRAME_WIDTH), cap.get(cv2.CAP_PROP_FRAME_HEIGHT)
@@ -52,12 +52,30 @@ def track_action(src, t_in, dur, analyse_fps=8):
         small = cv2.resize(fr, None, fx=scale, fy=scale, interpolation=cv2.INTER_AREA)
         mask = bg.apply(small)
         mask = cv2.morphologyEx(mask, cv2.MORPH_OPEN, np.ones((3, 3), np.uint8))
+        # follow the ball: moving blobs (players merged by dilation), scored by size,
+        # whether they hold the moving orange ball, and closeness to where we were
+        hsv = cv2.cvtColor(small, cv2.COLOR_BGR2HSV)
+        ball = cv2.inRange(hsv, (3, 110, 90), (22, 255, 255)) & mask
+        blobs = cv2.dilate(mask, np.ones((9, 9), np.uint8))
+        n, lab, stats, cents = cv2.connectedComponentsWithStats(blobs)
         if t < t_in - 0.05:
+            prev = None
             continue
-        m = cv2.moments(mask, binaryImage=True)
-        if m["m00"] > 40:
+        best, best_s = None, 0
+        for j in range(1, n):
+            area = stats[j, cv2.CC_STAT_AREA]
+            if area < 40:
+                continue
+            has_ball = int(np.count_nonzero(ball[lab == j]))
+            s = area * (1 + 4 * min(has_ball, 10))
+            if pts:
+                px, py = pts[-1][0] * scale, pts[-1][1] * scale
+                s /= 1 + np.hypot(cents[j][0] - px, cents[j][1] - py) / 60
+            if s > best_s:
+                best, best_s = j, s
+        if best is not None:
             times.append(t - t_in)
-            pts.append((m["m10"] / m["m00"] / scale, m["m01"] / m["m00"] / scale))
+            pts.append((cents[best][0] / scale, cents[best][1] / scale))
     cap.release()
     n_out = int(round(dur * FPS))
     if not pts:
@@ -66,8 +84,14 @@ def track_action(src, t_in, dur, analyse_fps=8):
     tt = np.arange(n_out) / FPS
     cx = np.interp(tt, times, pts[:, 0])
     cy = np.interp(tt, times, pts[:, 1])
-    # smooth like a camera operator: ~0.7 s gaussian, then cap speed
-    sigma = 0.7 * FPS
+    if keys:  # manual keyframes [[t, x 0..1], ...] override the horizontal track between first and last key
+        kt, kx = zip(*keys)
+        inside = (tt >= kt[0]) & (tt <= kt[-1])
+        cx = np.where(inside, np.interp(tt, kt, np.array(kx) * sw), cx)
+        if tt[-1] > kt[-1]:
+            cx = np.where(tt > kt[-1], kx[-1] * sw, cx)
+    # smooth like a camera operator (gaussian, default 0.7 s)
+    sigma = max(1.0, smooth * FPS)
     k = np.exp(-0.5 * (np.arange(-3 * sigma, 3 * sigma + 1) / sigma) ** 2)
     k /= k.sum()
     pad = len(k) // 2
@@ -98,7 +122,7 @@ FRAME_Y, FRAME_W, FRAME_H = 285, 1080, 1350  # 4:5 window used for already-verti
 def render_shot(shot, out, size, workdir, brand):
     src = ROOT / "inbox" / shot["src"]
     t_in, dur = float(shot["in"]), float(shot["dur"])
-    track, (sw, sh) = track_action(src, t_in, dur)
+    track, (sw, sh) = track_action(src, t_in, dur, smooth=float(shot.get("smooth", 0.7)), keys=shot.get("x_keys"))
     if "x" in shot:  # manual override: fixed horizontal centre (0..1 of frame width)
         track = [(shot["x"] * sw, cy) for _, cy in track]
     ow, oh = size
@@ -179,20 +203,20 @@ def _wrap(draw, text, font, max_w):
     return lines
 
 
-def text_card(text, path, brand, scale, accent_word=None, y=330):
+def text_card(text, path, brand, scale, accent_word=None, y=330, size=88):
     """Marker-style card: white heavy caps on a dark bar, one accent word, left aligned."""
     img = Image.new("RGBA", (int(W * scale), int(H * scale)), (0, 0, 0, 0))
     d = ImageDraw.Draw(img)
-    fs = int(88 * scale)
+    fs = int(size * scale)
     font = ImageFont.truetype(FONT_BLACK, fs)
     x, max_w = int(70 * scale), int((W - 70 - 160) * scale)
     lines = _wrap(d, text.upper(), font, max_w)
     yy = int(y * scale)
-    pad = int(18 * scale)
+    pad = int(18 * size / 88 * scale)
     for ln in lines:
         tw = d.textlength(ln, font=font)
         d.rectangle([x - pad, yy - pad // 2, x + tw + pad, yy + fs + pad], fill=brand["dark"] + "E6")
-        d.rectangle([x - pad, yy - pad // 2, x - pad + int(10 * scale), yy + fs + pad], fill=brand["accent"])
+        d.rectangle([x - pad, yy - pad // 2, x - pad + max(4, int(10 * size / 88 * scale)), yy + fs + pad], fill=brand["accent"])
         cx = x
         for wd in ln.split(" "):
             col = brand["accent"] if accent_word and wd.strip(".,!?'\"").lower() == accent_word.lower() else "#FFFFFF"
@@ -259,7 +283,7 @@ def build(script_path, preview=False):
         dur = float(shot["dur"])
         if shot.get("text"):
             p = work / f"text{i:02d}.png"
-            text_card(shot["text"], p, brand, scale, shot.get("accent"))
+            text_card(shot["text"], p, brand, scale, shot.get("accent"), y=script.get("text_y", 330), size=script.get("text_size", 88))
             overlays.append((p, t + float(shot.get("text_delay", 0.15)), t + dur))
         if shot.get("vo"):
             guide.append(f"{t:5.1f}s - {t + dur:5.1f}s  {shot['vo']}")
