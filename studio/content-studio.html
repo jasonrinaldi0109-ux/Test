@@ -84,6 +84,8 @@ textarea{width:100%;min-height:68px;font:14px/1.5 var(--body);color:var(--ink);b
 .opts{display:flex;flex-wrap:wrap;gap:6px}
 .opts button{padding:6px 10px;font-weight:500}
 .opts button.on{background:var(--court);border-color:var(--court);color:#fff}
+.check{margin:0;font-size:14px;border-left:3px solid var(--court);padding:6px 10px;background:color-mix(in srgb,var(--court) 8%,transparent);border-radius:0 6px 6px 0}
+.hooks{margin:4px 0;padding-left:20px;font-size:14px}
 .empty{border:1px dashed var(--line);border-radius:8px;padding:20px;color:var(--muted)}
 .how{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;counter-reset:s}
 .how div{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:14px;font-size:14px}
@@ -94,8 +96,8 @@ textarea{width:100%;min-height:68px;font:14px/1.5 var(--body);color:var(--ink);b
 <div class="wrap">
   <header>
     <div class="eyebrow">Fluid Experiences · Content Studio</div>
-    <h1>Monday footage <span>→</span> five reels</h1>
-    <p class="lede">Claude pulled 3 videos from Dropbox, matched them to the FLUID Stages blueprint, wrote five scripts and cut a draft of each. Watch the drafts, approve or flag each one, and answer the questions below. Your answers save here and Claude reads them back.</p>
+    <h1>Monday footage <span>→</span> seven reels</h1>
+    <p class="lede">Claude pulled the Monday footage from Dropbox, applied the Fluid Content Blueprint (parents first, Proof / Value / Connection, hook → loop → point → close → one keyword CTA, bank December now), wrote seven scripts and cut a draft of each. The two newest, from your own edit, are at the top. Watch the drafts, approve or flag each one, and answer the questions below. Your answers save here and Claude reads them back.</p>
   </header>
 
   <section aria-labelledby="bp">
@@ -106,6 +108,8 @@ textarea{width:100%;min-height:68px;font:14px/1.5 var(--body);color:var(--ink);b
   <section aria-labelledby="ib">
     <div class="sechead"><h2 id="ib">Dropbox inbox</h2><span class="eyebrow">Pulled 18 Nov 2026</span></div>
     <div class="inbox">
+      <div class="clip"><span class="name">jasons edit of monday workout .mov</span><span class="meta">2:47 · 1080×1920 · your edit, letterboxed clips</span>
+        <ul><li>Best reps already picked: contact 1v1s, drives, pull-ups</li><li>Cut in a fixed 4:5 window so every clip matches</li></ul></div>
       <div class="clip"><span class="name">Fluid.mov</span><span class="meta">3:40 · 1920×1080 · wide, static</span>
         <ul><li>Spread-out 1v1 stations and finishing reps</li><li>Players small in frame: best for wide "session" shots</li></ul></div>
       <div class="clip"><span class="name">Monday workout.mov</span><span class="meta">1:18 · 1920×1080 · closer, moving</span>
@@ -174,8 +178,10 @@ function renderIdeas(){
         <span class="saved">${esc(i.duration)}s · 1080×1920 draft</span></div>
       <div class="body">
         <div class="actions" style="justify-content:space-between"><h3>${esc(i.title)}</h3><span class="pill ${st}">${STATUS[st]}</span></div>
-        <div class="tags"><span class="tag bp">${esc(i.blueprint)}</span><span class="tag cta">CTA: ${esc(i.cta)}</span></div>
+        <div class="tags">${i.type?`<span class="tag">${esc(i.type)}</span>`:""}${i.audience?`<span class="tag">For: ${esc(i.audience)}</span>`:""}<span class="tag bp">${esc(i.blueprint)}</span><span class="tag cta">CTA: ${esc(i.cta)}</span></div>
         <p style="margin:0;color:var(--muted)">${esc(i.goal)}</p>
+        ${i.blueprintNote?`<p class="check"><strong>Blueprint check:</strong> ${esc(i.blueprintNote)}</p>`:""}
+        ${(i.hooks||[]).length?`<div><span class="eyebrow">Hook options (first 3 seconds)</span><ol class="hooks">${i.hooks.map(h=>`<li>${esc(h)}</li>`).join("")}</ol>${i.openLoop?`<span class="saved">Open loop: ${esc(i.openLoop)} · Close loop: ${esc(i.closeLoop)}</span>`:""}</div>`:""}
         <div class="tablewrap"><table><thead><tr><th>Time</th><th>On screen</th><th>Voiceover (you)</th><th>Clip</th></tr></thead><tbody>${rows}
           <tr><td class="tc">${fmt(t)}–${fmt(t+i.endDur)}</td><td class="os">${esc(i.endMain)}</td><td style="color:var(--muted)">End card</td><td></td></tr></tbody></table></div>
         <div class="actions">${["approved","changes","skip"].map(k=>`<button data-act="${k}" class="${k}${st===k?" on":""}" ${canWrite?"":"disabled"}>${STATUS[k]}</button>`).join("")}</div>

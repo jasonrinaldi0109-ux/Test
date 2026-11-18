@@ -1,0 +1,82 @@
+{
+  "id": "s7-watch-how-low",
+  "title": "Highlight: watch how low he gets",
+  "type": "Reach (highlight + teaching line)",
+  "audience": "Players",
+  "blueprint": "Run highlight with one teaching line ('Turn highlights into proof'). Collab with Jay, not Fluid. Raw tripod reps.",
+  "goal": "Reach post that also shows expertise: best reps from Monday with one coaching point on screen",
+  "cta": "Follow for more Monday runs",
+  "hooks": [
+    "Watch how low he gets",
+    "Why can't the defender get the ball?",
+    "Low first. Then go."
+  ],
+  "open_loop": "Why can't the defender reach it?",
+  "close_loop": "Low, then go.",
+  "gym_gain_db": -4,
+  "shots": [
+    {
+      "src": "jasons edit.mov",
+      "in": 61.0,
+      "dur": 3.4,
+      "zoom": 1.0,
+      "vo": "",
+      "text": "Watch how low he gets",
+      "accent": "low"
+    },
+    {
+      "src": "jasons edit.mov",
+      "in": 17.4,
+      "dur": 3.0,
+      "zoom": 1.0,
+      "vo": "",
+      "text": "Low hips. Ball protected."
+    },
+    {
+      "src": "jasons edit.mov",
+      "in": 123.5,
+      "dur": 2.6,
+      "zoom": 1.0,
+      "vo": "",
+      "text": "The defender can't reach it",
+      "accent": "reach"
+    },
+    {
+      "src": "jasons edit.mov",
+      "in": 138.6,
+      "dur": 2.4,
+      "zoom": 1.0,
+      "vo": ""
+    },
+    {
+      "src": "jasons edit.mov",
+      "in": 80.0,
+      "dur": 3.6,
+      "zoom": 1.0,
+      "vo": "",
+      "text": "Then he goes",
+      "accent": "goes"
+    },
+    {
+      "src": "jasons edit.mov",
+      "in": 103.4,
+      "dur": 3.0,
+      "zoom": 1.0,
+      "vo": ""
+    },
+    {
+      "src": "jasons edit.mov",
+      "in": 0.0,
+      "dur": 3.2,
+      "zoom": 1.0,
+      "vo": "",
+      "text": "Low, then go.",
+      "accent": "go."
+    }
+  ],
+  "end_card": {
+    "main": "Follow for more Monday runs",
+    "sub": "Collab: Jay / Next Gen highlights",
+    "dur": 2.2
+  }
+}

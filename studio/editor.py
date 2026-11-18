@@ -76,16 +76,50 @@ def track_action(src, t_in, dur, analyse_fps=8):
     return list(zip(cx, cy)), (sw, sh)
 
 
-def render_shot(shot, out, size, workdir):
+def active_region(src, t_in, dur):
+    """Rows holding picture (not letterbox black) in a vertical edit, union over the shot."""
+    cap = cv2.VideoCapture(str(src))
+    y0, y1 = 10 ** 9, 0
+    for f in (0.15, 0.5, 0.85):
+        cap.set(cv2.CAP_PROP_POS_MSEC, (t_in + dur * f) * 1000)
+        ok, fr = cap.read()
+        if not ok:
+            continue
+        rows = np.where(fr.mean(axis=(1, 2)) > 12)[0]
+        if len(rows):
+            y0, y1 = min(y0, rows.min()), max(y1, rows.max() + 1)
+    cap.release()
+    return (y0, y1) if y1 > y0 else None
+
+
+FRAME_Y, FRAME_W, FRAME_H = 285, 1080, 1350  # 4:5 window used for already-vertical letterboxed sources
+
+
+def render_shot(shot, out, size, workdir, brand):
     src = ROOT / "inbox" / shot["src"]
-    t_in, dur, zoom = float(shot["in"]), float(shot["dur"]), float(shot.get("zoom", 1.3))
+    t_in, dur = float(shot["in"]), float(shot["dur"])
     track, (sw, sh) = track_action(src, t_in, dur)
     if "x" in shot:  # manual override: fixed horizontal centre (0..1 of frame width)
         track = [(shot["x"] * sw, cy) for _, cy in track]
-    ch = sh / zoom
-    cw = ch * 9 / 16
-    bias = float(shot.get("y_bias", 0.0))  # positive = show more floor
     ow, oh = size
+    scale = ow / W
+    framed = sh > sw  # vertical edit with letterboxed clips -> fixed 4:5 window
+    if framed:
+        zoom = float(shot.get("zoom", 1.0))
+        ry0, ry1 = active_region(src, t_in, dur) or (0, sh)
+        aspect = FRAME_W / FRAME_H
+        ch = min(ry1 - ry0, sw / aspect) / zoom
+        cw = ch * aspect
+        win = (int(FRAME_W * scale), int(FRAME_H * scale))
+        canvas = np.zeros((oh, ow, 3), np.uint8)
+        canvas[:] = tuple(int(brand["dark"][i:i + 2], 16) for i in (5, 3, 1))  # hex -> BGR
+        wy = int(FRAME_Y * scale)
+    else:
+        zoom = float(shot.get("zoom", 1.3))
+        ry0, ry1 = 0, sh
+        ch = sh / zoom
+        cw = ch * 9 / 16
+    bias = float(shot.get("y_bias", 0.0))  # positive = show more floor
     enc = subprocess.Popen(
         ["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "bgr24", "-s", f"{ow}x{oh}",
          "-r", str(FPS), "-i", "-", "-c:v", "libx264", "-preset", "veryfast", "-crf", "18",
@@ -104,12 +138,16 @@ def render_shot(shot, out, size, workdir):
             fr = nxt
         cy = cy + bias * ch
         x0 = int(np.clip(cx - cw / 2, 0, sw - cw))
-        y0 = int(np.clip(cy - ch * 0.55, 0, sh - ch))
+        y0 = int(np.clip(cy - ch * 0.55, ry0, ry1 - ch))
         crop = fr[y0:y0 + int(ch), x0:x0 + int(cw)]
-        frame = cv2.resize(crop, (ow, oh), interpolation=cv2.INTER_LANCZOS4)
+        frame = cv2.resize(crop, win if framed else (ow, oh), interpolation=cv2.INTER_LANCZOS4)
         if shot.get("sharpen", True):
             blur = cv2.GaussianBlur(frame, (0, 0), 1.2)
             frame = cv2.addWeighted(frame, 1.35, blur, -0.35, 0)
+        if framed:
+            full = canvas.copy()
+            full[wy:wy + win[1], 0:win[0]] = frame
+            frame = full
         enc.stdin.write(frame.tobytes())
     cap.release()
     enc.stdin.close()
@@ -216,7 +254,7 @@ def build(script_path, preview=False):
     for i, shot in enumerate(script["shots"]):
         out = work / f"shot{i:02d}.mp4"
         print(f"[{sid}] shot {i + 1}/{len(script['shots'])}: {shot['src']} @ {shot['in']}s for {shot['dur']}s", flush=True)
-        wavs.append(render_shot(shot, out, size, work))
+        wavs.append(render_shot(shot, out, size, work, brand))
         clips.append(out)
         dur = float(shot["dur"])
         if shot.get("text"):
