@@ -1,0 +1,57 @@
+{
+  "id": "s3-coach-cues",
+  "title": "3 cues for every 1v1 (coach content)",
+  "blueprint": "Community coach content creation: 'content that doubles as content for coaches' (JDOs, clubs, hit list)",
+  "goal": "Give club coaches something useful; keeps Fluid front of mind with clubs/JDOs",
+  "cta": "Save / send to your coach",
+  "shots": [
+    {
+      "src": "Monday workout.mov",
+      "in": 24,
+      "dur": 3.6,
+      "zoom": 1.1,
+      "vo": "Coaches: three cues we use in every one-on-one rep.",
+      "text": "Coaches: steal these 3 cues",
+      "accent": "3"
+    },
+    {
+      "src": "Monday workout.mov",
+      "in": 33,
+      "dur": 3.8,
+      "zoom": 1.35,
+      "vo": "One: eyes up. Read the defender, not the ball.",
+      "text": "1. Eyes up",
+      "accent": "up"
+    },
+    {
+      "src": "monday workouts 2.mov",
+      "in": 964,
+      "dur": 3.8,
+      "zoom": 1.35,
+      "vo": "Two: win the hip. Get your shoulder past theirs.",
+      "text": "2. Win the hip",
+      "accent": "hip"
+    },
+    {
+      "src": "Monday workout.mov",
+      "in": 43,
+      "dur": 3.8,
+      "zoom": 1.35,
+      "vo": "Three: finish on balance. Rushed is not fast.",
+      "text": "3. Finish on balance",
+      "accent": "balance"
+    },
+    {
+      "src": "monday workouts 2.mov",
+      "in": 770,
+      "dur": 3.4,
+      "zoom": 1.35,
+      "vo": "Simple cues players can actually use live."
+    }
+  ],
+  "end_card": {
+    "main": "Save this for your next session",
+    "sub": "More drills every week from Fluid",
+    "dur": 2.6
+  }
+}

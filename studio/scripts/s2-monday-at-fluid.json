@@ -1,0 +1,71 @@
+{
+  "id": "s2-monday-at-fluid",
+  "title": "This is a Monday at Fluid",
+  "blueprint": "School holidays (Jan): testing · parent workshops · community events · referral campaign",
+  "goal": "Show the session experience and fill the January holiday block via referrals",
+  "cta": "DM HOLIDAYS",
+  "shots": [
+    {
+      "src": "Monday workout.mov",
+      "in": 42,
+      "dur": 3.0,
+      "zoom": 1.35,
+      "vo": "This is a Monday night at Fluid.",
+      "text": "A Monday at Fluid",
+      "accent": "Fluid"
+    },
+    {
+      "src": "monday workouts 2.mov",
+      "in": 0,
+      "dur": 3.0,
+      "zoom": 1.15,
+      "vo": "Small groups. Every player gets reps.",
+      "text": "Small groups"
+    },
+    {
+      "src": "Monday workout.mov",
+      "in": 24,
+      "dur": 3.8,
+      "zoom": 1.1,
+      "vo": "Every rep gets coached, not just counted.",
+      "text": "Coached, not counted",
+      "accent": "coached,"
+    },
+    {
+      "src": "monday workouts 2.mov",
+      "in": 936,
+      "dur": 3.0,
+      "zoom": 1.35,
+      "vo": "Then it's live."
+    },
+    {
+      "src": "Fluid.mov",
+      "in": 130,
+      "dur": 3.4,
+      "zoom": 1.25,
+      "vo": "These school holidays we're running our January block:"
+    },
+    {
+      "src": "monday workouts 2.mov",
+      "in": 956,
+      "dur": 3.8,
+      "zoom": 1.35,
+      "vo": "player testing, our handles program, and a parent workshop.",
+      "text": "Testing. Handles. Parent workshop."
+    },
+    {
+      "src": "monday workouts 2.mov",
+      "in": 1052,
+      "dur": 3.0,
+      "zoom": 1.35,
+      "vo": "Bring a teammate along.",
+      "text": "Bring a teammate",
+      "accent": "teammate"
+    }
+  ],
+  "end_card": {
+    "main": "DM “HOLIDAYS”",
+    "sub": "for January dates and details",
+    "dur": 2.6
+  }
+}

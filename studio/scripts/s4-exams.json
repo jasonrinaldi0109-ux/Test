@@ -1,0 +1,56 @@
+{
+  "id": "s4-exams",
+  "title": "Exams don't mean zero touches",
+  "blueprint": "November: Exams/Studying + Scheduling/planning (mindset)",
+  "goal": "Timely value for players/parents in exam season; positions Fluid as the planning experts",
+  "cta": "Follow",
+  "shots": [
+    {
+      "src": "Fluid.mov",
+      "in": 200,
+      "dur": 3.6,
+      "zoom": 1.25,
+      "vo": "Exam season doesn't mean you stop touching a ball.",
+      "text": "Exams ≠ zero touches",
+      "accent": "zero"
+    },
+    {
+      "src": "monday workouts 2.mov",
+      "in": 1034,
+      "dur": 4.0,
+      "zoom": 1.35,
+      "vo": "Twenty minutes, three times a week, is enough to hold your game.",
+      "text": "20 minutes",
+      "accent": "20"
+    },
+    {
+      "src": "Monday workout.mov",
+      "in": 0,
+      "dur": 3.6,
+      "zoom": 1.2,
+      "vo": "Schedule it like a study block. Same time, every week.",
+      "text": "Plan it like study",
+      "accent": "study"
+    },
+    {
+      "src": "monday workouts 2.mov",
+      "in": 1005.5,
+      "dur": 3.6,
+      "zoom": 1.35,
+      "vo": "Ten minutes of handles. Ten minutes of form shooting.",
+      "text": "Handles + form shots"
+    },
+    {
+      "src": "Fluid.mov",
+      "in": 135,
+      "dur": 3.6,
+      "zoom": 1.25,
+      "vo": "So when exams finish, you're not starting from zero."
+    }
+  ],
+  "end_card": {
+    "main": "Follow for the 20-minute plan",
+    "sub": "Fluid Experiences",
+    "dur": 2.6
+  }
+}

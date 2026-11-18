@@ -1,0 +1,56 @@
+{
+  "id": "s5-st-clair",
+  "title": "St Clair prep",
+  "blueprint": "December: St Clair club tournament",
+  "goal": "Ride tournament timing; book pre-tournament sessions",
+  "cta": "DM ST CLAIR",
+  "shots": [
+    {
+      "src": "monday workouts 2.mov",
+      "in": 956,
+      "dur": 3.2,
+      "zoom": 1.35,
+      "vo": "St Clair's around the corner.",
+      "text": "St Clair is coming",
+      "accent": "St"
+    },
+    {
+      "src": "monday workouts 2.mov",
+      "in": 936,
+      "dur": 3.4,
+      "zoom": 1.35,
+      "vo": "So our sessions are all game speed now.",
+      "text": "Game-speed reps",
+      "accent": "speed"
+    },
+    {
+      "src": "Monday workout.mov",
+      "in": 33,
+      "dur": 3.4,
+      "zoom": 1.35,
+      "vo": "One-on-one, two-on-two, live decisions.",
+      "text": "1v1. 2v2. Live."
+    },
+    {
+      "src": "monday workouts 2.mov",
+      "in": 1051,
+      "dur": 4.0,
+      "zoom": 1.35,
+      "vo": "You don't find confidence at the tournament. You bring it.",
+      "text": "Bring the confidence",
+      "accent": "confidence"
+    },
+    {
+      "src": "Fluid.mov",
+      "in": 200,
+      "dur": 3.2,
+      "zoom": 1.25,
+      "vo": "Want a pre-tournament session? Send us a message."
+    }
+  ],
+  "end_card": {
+    "main": "DM “ST CLAIR”",
+    "sub": "to book a pre-tournament session",
+    "dur": 2.6
+  }
+}

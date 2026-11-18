@@ -1,0 +1,65 @@
+{
+  "id": "s1-handles",
+  "title": "Ball-handling proof",
+  "blueprint": "Handles program (Jan-Mar) · Notion P1 'ball handling proof video'",
+  "goal": "Prove the handles we teach work against a defender; lead into January handles program",
+  "cta": "DM HANDLES",
+  "shots": [
+    {
+      "src": "monday workouts 2.mov",
+      "in": 962,
+      "dur": 4.6,
+      "zoom": 1.35,
+      "vo": "Anyone can dribble alone. Can you do it with a defender on you?",
+      "text": "Anyone can dribble alone",
+      "accent": "alone"
+    },
+    {
+      "src": "Monday workout.mov",
+      "in": 0,
+      "dur": 3.6,
+      "zoom": 1.2,
+      "vo": "At Fluid, every handle we teach gets tested live.",
+      "text": "Every move. Tested live.",
+      "accent": "live."
+    },
+    {
+      "src": "monday workouts 2.mov",
+      "in": 975,
+      "dur": 3.4,
+      "zoom": 1.35,
+      "vo": "Stay low. Keep it tight to the body.",
+      "text": "Low. Tight."
+    },
+    {
+      "src": "monday workouts 2.mov",
+      "in": 1005.5,
+      "dur": 3.6,
+      "zoom": 1.35,
+      "vo": "Change your pace, not just your hand.",
+      "text": "Change of pace",
+      "accent": "pace"
+    },
+    {
+      "src": "monday workouts 2.mov",
+      "in": 1051,
+      "dur": 4.2,
+      "zoom": 1.35,
+      "vo": "That's how a move goes from the warm-up into the game.",
+      "text": "Warm-up to game",
+      "accent": "game"
+    },
+    {
+      "src": "monday workouts 2.mov",
+      "in": 1034,
+      "dur": 3.2,
+      "zoom": 1.35,
+      "vo": "Handles program starts in January."
+    }
+  ],
+  "end_card": {
+    "main": "DM “HANDLES”",
+    "sub": "for the January handles program",
+    "dur": 2.6
+  }
+}

@@ -1,0 +1,7 @@
+inbox/
+studio/out/
+studio/build/
+studio/vo/*
+!studio/vo/.gitkeep
+reels/
+__pycache__/

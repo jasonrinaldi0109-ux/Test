@@ -1,0 +1,227 @@
+<title>Fluid Content Studio</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: a court-floor page. Season strip on top, then inbox, scripts board, questions. */
+:root{
+  --floor:#EEF2F8; --panel:#FFFFFF; --ink:#0E1A2B; --muted:#5A6B80; --line:#D3DCE8;
+  --court:#2F4FA8; --ball:#E8772E; --ok:#1F8A5B; --warn:#B7791F; --no:#B4413A;
+  --display:"Barlow Condensed","Arial Narrow",Arial,sans-serif;
+  --body:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --floor:#0D1522; --panel:#152033; --ink:#E8EEF7; --muted:#93A4BA; --line:#26344B;
+  --court:#7F9BEA; --ball:#F08A45; --ok:#4CC08A; --warn:#E0A64A; --no:#E07068; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --floor:#0D1522; --panel:#152033; --ink:#E8EEF7; --muted:#93A4BA; --line:#26344B;
+  --court:#7F9BEA; --ball:#F08A45; --ok:#4CC08A; --warn:#E0A64A; --no:#E07068; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--floor);color:var(--ink);font:15px/1.55 var(--body);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 64px}
+.wrap{max-width:1120px;margin:0 auto;display:flex;flex-direction:column;gap:40px}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0;letter-spacing:.01em}
+h1{font-size:clamp(40px,7vw,64px);font-weight:800;line-height:.95;text-transform:uppercase}
+h1 span{color:var(--ball)}
+h2{font-size:30px;font-weight:800;text-transform:uppercase}
+h3{font-size:24px;font-weight:600}
+.eyebrow{font:500 12px var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.lede{max-width:65ch;color:var(--muted);margin:10px 0 0}
+section{display:flex;flex-direction:column;gap:16px}
+.sechead{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px;border-bottom:2px solid var(--ink);padding-bottom:8px}
+/* season strip */
+.season{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:4px}
+.m{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:8px 6px;min-height:118px;display:flex;flex-direction:column;gap:4px;min-width:0}
+.m b{font:600 18px var(--display);text-transform:uppercase}
+.m i{font-style:normal;font-size:11px;line-height:1.3;color:var(--muted);overflow-wrap:anywhere}
+.m.now{border:2px solid var(--ball)} .m.now b{color:var(--ball)}
+.m.next{border-color:var(--court)}
+@media (max-width:820px){.season{grid-template-columns:repeat(6,minmax(0,1fr))}}
+@media (max-width:460px){.season{grid-template-columns:repeat(3,minmax(0,1fr))}}
+/* inbox */
+.inbox{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+.clip{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:14px;display:flex;flex-direction:column;gap:6px;min-width:0}
+.clip .name{font:500 14px var(--mono);overflow-wrap:anywhere}
+.clip .meta{font:500 12px var(--mono);color:var(--muted)}
+.clip ul{margin:4px 0 0;padding-left:18px;font-size:13px;color:var(--muted)}
+/* ideas */
+.idea{background:var(--panel);border:1px solid var(--line);border-radius:10px;display:grid;grid-template-columns:260px minmax(0,1fr);gap:20px;padding:18px}
+@media (max-width:760px){.idea{grid-template-columns:1fr}}
+.vid{display:flex;flex-direction:column;gap:8px}
+.vid video,.vid .ph{width:100%;max-width:260px;aspect-ratio:9/16;border-radius:8px;background:#0B1B2E;object-fit:cover}
+.vid .ph{display:grid;place-items:center;color:#9FB3C8;font:500 12px var(--mono);text-align:center;padding:12px}
+.body{display:flex;flex-direction:column;gap:12px;min-width:0}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.tag{font:500 11px var(--mono);letter-spacing:.06em;text-transform:uppercase;border:1px solid var(--line);border-radius:4px;padding:3px 7px;color:var(--muted)}
+.tag.bp{border-color:var(--court);color:var(--court)}
+.tag.cta{border-color:var(--ball);color:var(--ball)}
+.pill{font:600 12px var(--body);border-radius:999px;padding:3px 10px;background:var(--floor);color:var(--muted)}
+.pill.approved{background:color-mix(in srgb,var(--ok) 16%,transparent);color:var(--ok)}
+.pill.changes{background:color-mix(in srgb,var(--warn) 18%,transparent);color:var(--warn)}
+.pill.skip{background:color-mix(in srgb,var(--no) 14%,transparent);color:var(--no)}
+.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:8px}
+table{border-collapse:collapse;width:100%;font-size:13.5px;min-width:520px}
+th{font:500 11px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);text-align:left;padding:8px 10px;border-bottom:1px solid var(--line)}
+td{padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+tr:last-child td{border-bottom:0}
+td.tc{font:500 12px var(--mono);color:var(--muted);white-space:nowrap;font-variant-numeric:tabular-nums}
+td.os{font:600 15px var(--display);text-transform:uppercase;letter-spacing:.02em}
+.actions{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+button{font:600 13px var(--body);border-radius:6px;border:1px solid var(--line);background:var(--panel);color:var(--ink);padding:8px 14px;cursor:pointer}
+button:hover{border-color:var(--ink)}
+button:focus-visible,textarea:focus-visible{outline:2px solid var(--ball);outline-offset:2px}
+button.on.approved{background:var(--ok);border-color:var(--ok);color:#fff}
+button.on.changes{background:var(--warn);border-color:var(--warn);color:#fff}
+button.on.skip{background:var(--no);border-color:var(--no);color:#fff}
+textarea{width:100%;min-height:68px;font:14px/1.5 var(--body);color:var(--ink);background:var(--floor);border:1px solid var(--line);border-radius:6px;padding:10px;resize:vertical}
+.saved{font:500 12px var(--mono);color:var(--muted)}
+/* questions */
+.qs{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:12px}
+.q{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--ball);border-radius:8px;padding:14px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.q.done{border-left-color:var(--ok)}
+.q p{margin:0} .q .ctx{font-size:13px;color:var(--muted)}
+.opts{display:flex;flex-wrap:wrap;gap:6px}
+.opts button{padding:6px 10px;font-weight:500}
+.opts button.on{background:var(--court);border-color:var(--court);color:#fff}
+.empty{border:1px dashed var(--line);border-radius:8px;padding:20px;color:var(--muted)}
+.how{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;counter-reset:s}
+.how div{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:14px;font-size:14px}
+.how b{display:block;font:600 18px var(--display);text-transform:uppercase;margin-bottom:4px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Fluid Experiences · Content Studio</div>
+    <h1>Monday footage <span>→</span> five reels</h1>
+    <p class="lede">Claude pulled 3 videos from Dropbox, matched them to the FLUID Stages blueprint, wrote five scripts and cut a draft of each. Watch the drafts, approve or flag each one, and answer the questions below. Your answers save here and Claude reads them back.</p>
+  </header>
+
+  <section aria-labelledby="bp">
+    <div class="sechead"><h2 id="bp">Where we are in the blueprint</h2><span class="eyebrow">From FLUID Stages · Google Sheets</span></div>
+    <div class="season" id="season"></div>
+  </section>
+
+  <section aria-labelledby="ib">
+    <div class="sechead"><h2 id="ib">Dropbox inbox</h2><span class="eyebrow">Pulled 18 Nov 2026</span></div>
+    <div class="inbox">
+      <div class="clip"><span class="name">Fluid.mov</span><span class="meta">3:40 · 1920×1080 · wide, static</span>
+        <ul><li>Spread-out 1v1 stations and finishing reps</li><li>Players small in frame: best for wide "session" shots</li></ul></div>
+      <div class="clip"><span class="name">Monday workout.mov</span><span class="meta">1:18 · 1920×1080 · closer, moving</span>
+        <ul><li>0:24–0:33 you demonstrating to a player</li><li>0:33–0:51 1v1 reps, pull-up at 0:45</li></ul></div>
+      <div class="clip"><span class="name">monday workouts 2.mov</span><span class="meta">17:51 · 1920×1080 · wide, then close</span>
+        <ul><li>0:00–3:45 stations at the far hoop</li><li>12:30–17:30 camera moved close: the best contact handles</li></ul></div>
+    </div>
+  </section>
+
+  <section aria-labelledby="sc">
+    <div class="sechead"><h2 id="sc">Scripts &amp; drafts</h2><span class="eyebrow" id="tally">Loading…</span></div>
+    <p class="lede" style="margin:0">Drafts are text-only for now: the voiceover lines are what you'll record. Once your voice file is in Dropbox, the editor adds it with subtitles and ducks the gym sound.</p>
+    <div id="ideas"><div class="empty">The scripts load from the studio's saved data. If nothing appears after a few seconds, refresh the page.</div></div>
+  </section>
+
+  <section aria-labelledby="qq">
+    <div class="sechead"><h2 id="qq">Questions for Jason</h2><span class="eyebrow" id="qtally"></span></div>
+    <div class="qs" id="questions"><div class="empty">Questions load from the studio's saved data.</div></div>
+  </section>
+
+  <section aria-labelledby="hw">
+    <div class="sechead"><h2 id="hw">How the editor works</h2><span class="eyebrow">studio/editor.py</span></div>
+    <div class="how">
+      <div><b>1 · Pick up</b>New videos in your Dropbox root are pulled into the studio and logged.</div>
+      <div><b>2 · Reframe</b>Motion tracking follows the action and crops 16:9 gym footage to 9:16, smoothed like a camera operator.</div>
+      <div><b>3 · Script</b>Each script is a list of shots: clip, timecode, on-screen text, voiceover line, CTA end card.</div>
+      <div><b>4 · Voice &amp; master</b>Drop <code>&lt;script-id&gt;.m4a</code> in Dropbox. The editor adds subtitles, ducks the gym sound and masters to −14 LUFS.</div>
+    </div>
+  </section>
+</div>
+
+<script>
+const SEASON=[
+ ["Jan","Handles program · Goal setting · Holidays: testing, parent workshop, community events"],
+ ["Feb","Handles program · Referral campaign?"],
+ ["Mar","Handles · Film study · Peak illness"],
+ ["Apr","Film study · Habits & time mgmt · Easter · Holidays"],
+ ["May","Film study · State Champs · Habits"],
+ ["Jun","Footwork · Film study · Melbourne"],
+ ["Jul","Film study · South + West · Trial applications · Holidays"],
+ ["Aug","Shooting program · Trials"],
+ ["Sep","Shooting · Trials · Goal setting · Holidays"],
+ ["Oct","Shooting · Exams · Goal setting · Scheduling"],
+ ["Nov","Exams/studying · Scheduling & planning"],
+ ["Dec","St Clair · Scheduling & planning"]];
+const NOW=10;
+document.getElementById("season").innerHTML=SEASON.map(([m,t],i)=>
+  `<div class="m${i===NOW?" now":""}${i===11||i===0?" next":""}"><b>${m}</b><i>${t}</i>${i===NOW?'<i style="color:var(--ball);font-weight:600">Now</i>':""}</div>`).join("");
+
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const fmt=t=>t.toFixed(1)+"s";
+const STATUS={approved:"Approved",changes:"Needs changes",skip:"Skip",pending:"Not reviewed"};
+let db=null, ideas=[], questions=[], canWrite=true;
+
+function renderIdeas(){
+  const el=document.getElementById("ideas");
+  if(!ideas.length){return}
+  const done=ideas.filter(i=>i.status&&i.status!=="pending").length;
+  document.getElementById("tally").textContent=`${done} of ${ideas.length} reviewed`;
+  el.innerHTML=ideas.map(i=>{
+    let t=0;
+    const rows=(i.shots||[]).map(s=>{const a=t;t+=s.dur;return `<tr><td class="tc">${fmt(a)}–${fmt(t)}</td><td class="os">${esc(s.text||"—")}</td><td>${esc(s.vo)}</td><td class="tc">${esc(s.src)}<br>@ ${esc(s.at)}</td></tr>`}).join("");
+    const st=i.status||"pending";
+    return `<article class="idea" data-id="${esc(i.id)}" style="margin-bottom:14px">
+      <div class="vid">${i.videoUrl?`<video src="${esc(i.videoUrl)}" controls playsinline preload="metadata"></video>`:`<div class="ph">Draft render coming</div>`}
+        <span class="saved">${esc(i.duration)}s · 1080×1920 draft</span></div>
+      <div class="body">
+        <div class="actions" style="justify-content:space-between"><h3>${esc(i.title)}</h3><span class="pill ${st}">${STATUS[st]}</span></div>
+        <div class="tags"><span class="tag bp">${esc(i.blueprint)}</span><span class="tag cta">CTA: ${esc(i.cta)}</span></div>
+        <p style="margin:0;color:var(--muted)">${esc(i.goal)}</p>
+        <div class="tablewrap"><table><thead><tr><th>Time</th><th>On screen</th><th>Voiceover (you)</th><th>Clip</th></tr></thead><tbody>${rows}
+          <tr><td class="tc">${fmt(t)}–${fmt(t+i.endDur)}</td><td class="os">${esc(i.endMain)}</td><td style="color:var(--muted)">End card</td><td></td></tr></tbody></table></div>
+        <div class="actions">${["approved","changes","skip"].map(k=>`<button data-act="${k}" class="${k}${st===k?" on":""}" ${canWrite?"":"disabled"}>${STATUS[k]}</button>`).join("")}</div>
+        <label class="eyebrow" for="n-${esc(i.id)}">Your notes: wording, clips, CTA</label>
+        <textarea id="n-${esc(i.id)}" data-notes ${canWrite?"":"disabled"} placeholder="e.g. change line 2 to…, use the 0:45 pull-up instead">${esc(i.notes||"")}</textarea>
+        <span class="saved" data-saved></span>
+      </div></article>`}).join("");
+}
+function renderQs(){
+  const el=document.getElementById("questions");
+  if(!questions.length){return}
+  const done=questions.filter(q=>q.answer).length;
+  document.getElementById("qtally").textContent=`${done} of ${questions.length} answered`;
+  el.innerHTML=questions.map(q=>`<div class="q${q.answer?" done":""}" data-q="${esc(q.id)}">
+    <p><strong>${esc(q.q)}</strong></p>${q.context?`<p class="ctx">${esc(q.context)}</p>`:""}
+    ${(q.options||[]).length?`<div class="opts">${q.options.map(o=>`<button data-opt="${esc(o)}" class="${q.answer===o?"on":""}" ${canWrite?"":"disabled"}>${esc(o)}</button>`).join("")}</div>`:""}
+    <label class="eyebrow" for="a-${esc(q.id)}">Your answer</label>
+    <textarea id="a-${esc(q.id)}" data-answer ${canWrite?"":"disabled"} placeholder="Type here, or tap an option">${esc(q.answer||"")}</textarea>
+    <span class="saved" data-saved></span></div>`).join("");
+}
+async function save(path,data,node){
+  if(!db)return;
+  const s=node?.querySelector("[data-saved]");
+  try{await db.doc(path).update({...data,updatedAt:new Date().toISOString()});if(s)s.textContent="Saved"}
+  catch(e){if(s)s.textContent=e.code==="invalid_argument"?"You can view this page but not edit it.":"Couldn't save. Try again in a moment."}
+}
+document.addEventListener("click",e=>{
+  const b=e.target.closest("button");if(!b||!canWrite)return;
+  const card=b.closest(".idea"), q=b.closest(".q");
+  if(card&&b.dataset.act)save("ideas/"+card.dataset.id,{status:b.dataset.act},card);
+  if(q&&b.dataset.opt){q.querySelector("[data-answer]").value=b.dataset.opt;save("questions/"+q.dataset.q,{answer:b.dataset.opt},q)}
+});
+document.addEventListener("change",e=>{
+  const t=e.target;
+  if(t.matches("[data-notes]")){const c=t.closest(".idea");save("ideas/"+c.dataset.id,{notes:t.value},c)}
+  if(t.matches("[data-answer]")){const q=t.closest(".q");save("questions/"+q.dataset.q,{answer:t.value},q)}
+});
+(async()=>{
+  const timer=setTimeout(()=>{document.getElementById("tally").textContent="Still connecting to saved data…"},10000);
+  db=await claude.use("db");
+  const user=await claude.use("user");
+  if(user){const w=await user.can("data.write");if(w===false)canWrite=false}
+  if(!db){clearTimeout(timer);document.getElementById("tally").textContent="Saved data isn't available in this view";return}
+  // re-render only when no field is being edited, so typing isn't wiped
+  const busy=()=>document.activeElement&&document.activeElement.matches("textarea");
+  db.collection("ideas").orderBy("order").onSnapshot(s=>{if(!s.metadata.fromCache)clearTimeout(timer);ideas=s.docs.map(d=>({id:d.id,...d.data()}));if(!busy())renderIdeas()},()=>{clearTimeout(timer)});
+  db.collection("questions").orderBy("order").onSnapshot(s=>{questions=s.docs.map(d=>({id:d.id,...d.data()}));if(!busy())renderQs()},()=>{});
+})();
+</script>
