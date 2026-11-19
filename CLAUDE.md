@@ -21,6 +21,17 @@ Jason Rinaldi co-runs **Fluid Experiences** (basketball development: small-group
 - Fluid.mov drill reps (ball starts right, 1v1 down the middle corridor, then finish or hand-off/off-ball screen): 0:19.2–0:25.4 (elbow pull-up), 0:47–0:53 (contact 1v1, pull-up), 1:00.8–1:09.6 (long contact 1v1, fade), 1:17.2–1:20.6 (blow-by layup), 1:39.6–1:48.9 (hand-off, then a shot at the rim).
 - Jason's framing rule: action in frame is the priority. He's fine with varying framing between clips. Claude chose the fixed 4:5 window (checked: players, ball and rim stay in shot); if a shot ever trims the action, fall back to his original framing for that shot.
 
+## Division of labour (agreed 19 Nov)
+- Jason edits the final videos himself (CapCut). Claude's job is to remove the slow part: finding, trimming and framing clips in long sessions, plus scripts, captions and the clip library. A VA may later do the tagging (make/miss/quality) from a Google Sheet; Claude cuts from the timestamps.
+- Clips go to Google Drive (the Dropbox connector can't upload video).
+
+## Jason's style, from his posted point guard reel (19 Nov, "final edit of point guard workout.mp4", 47.5 s)
+- 19 shots, mean 2.5 s. Opener held long (6.8 s); the middle runs 1–3 s cuts; the last three reps are 4 s each.
+- Keeps his letterboxed framing (black bars): no full-bleed crop, no title text on top.
+- Captions: word-by-word auto-captions, small, bottom-centre, white text on a pink/magenta highlight. No big headline cards.
+- Script: his own wording (see chat). Title "Are you really a point guard?". Caption short.
+- His earlier shooting reel (18 Nov): 1,641 views, 1,410 reach, 37% skip rate, 3 saves, 1 share. Parent-directed ("If your kid's giving up open shots…").
+
 ## Editor
 - `python3 studio/editor.py studio/scripts/<id>.json [--preview]`: motion-tracked 9:16 reframe of wide 16:9 gym footage, text cards, end card, −14 LUFS. Outputs to `studio/out/`.
 - Voiceover: put `studio/vo/<id>.m4a` → re-run → subtitles from the script's `vo` lines, gym sound ducked to −20 dB. `studio/build/<id>/vo-guide.txt` has the timing windows for recording.

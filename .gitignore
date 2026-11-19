@@ -5,3 +5,6 @@ studio/vo/*
 !studio/vo/.gitkeep
 reels/
 __pycache__/
+studio/sessions/*/clips/
+studio/sessions/*/audio16k.wav
+studio/sessions/*/analysis.json
