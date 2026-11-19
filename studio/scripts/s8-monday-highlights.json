@@ -1,0 +1,59 @@
+{
+  "id": "s8-monday-highlights",
+  "title": "Monday highlights",
+  "type": "Reach (highlight + teaching line)",
+  "audience": "Players",
+  "blueprint": "Highlight + one teaching line; collab with Jay",
+  "text_size": 50,
+  "text_y": 300,
+  "gym_gain_db": -4,
+  "shots": [
+    {
+      "src": "part2.mov",
+      "in": 1196.2,
+      "dur": 4.0,
+      "zoom": 1.55,
+      "smooth": 0.45,
+      "vo": "",
+      "text": "Win the first step",
+      "accent": "first"
+    },
+    {
+      "src": "part2.mov",
+      "in": 655.7,
+      "dur": 3.5,
+      "zoom": 1.55,
+      "smooth": 0.45,
+      "vo": ""
+    },
+    {
+      "src": "part2.mov",
+      "in": 1241.7,
+      "dur": 4.3,
+      "zoom": 1.55,
+      "smooth": 0.45,
+      "vo": ""
+    },
+    {
+      "src": "part3.mov",
+      "in": 520.5,
+      "dur": 4.5,
+      "zoom": 1.55,
+      "smooth": 0.45,
+      "vo": ""
+    },
+    {
+      "src": "part1.mov",
+      "in": 621.1,
+      "dur": 4.2,
+      "zoom": 1.55,
+      "smooth": 0.45,
+      "vo": ""
+    }
+  ],
+  "end_card": {
+    "main": "Monday nights at Fluid",
+    "sub": "Collab: Jay / Next Gen highlights",
+    "dur": 1.6
+  }
+}
