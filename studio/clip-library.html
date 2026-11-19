@@ -37,7 +37,9 @@ button:focus-visible,select:focus-visible,input:focus-visible{outline:2px solid 
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:12px}
 .card{background:var(--panel);border:1px solid var(--line);border-radius:10px;overflow:hidden;display:flex;flex-direction:column;min-width:0}
 .card.star{border-color:var(--ball);box-shadow:0 0 0 1px var(--ball)}
-.card.skip{opacity:.45}
+.card.skip{opacity:.6}
+.gone{position:absolute;inset:auto 0 0 0;display:flex;gap:8px;align-items:center;justify-content:space-between;padding:8px;background:rgba(11,27,46,.88);color:#fff;font:600 12px var(--body)}
+.gone .tag{color:#fff;border-color:#fff}
 .vid{position:relative;aspect-ratio:9/16;background:#0B1B2E;max-width:100%}
 .vid video{width:100%;height:100%;object-fit:cover;display:block}
 .vid .meta{position:absolute;left:6px;top:6px;display:flex;gap:4px;flex-wrap:wrap}
@@ -89,7 +91,7 @@ pre{white-space:pre-wrap;font:12px/1.5 var(--mono);margin:8px 0 0;overflow-x:aut
   </details>
   <details>
     <summary>How tagging works</summary>
-    <p class="lede" style="margin:6px 0 0">★ = how usable the clip is (1 okay, 2 good, 3 post-worthy). Outcome = how the rep ended. The action tags are for finding clips later ("every hand-off rep that ends in a make"). Tap "skip" for clips that are blocked or empty; they fade out.</p>
+    <p class="lede" style="margin:6px 0 0">★ = how usable the clip is (1 okay, 2 good, 3 post-worthy). Outcome = how the rep ended. The action tags are for finding clips later ("every hand-off rep that ends in a make"). Tap "skip (delete)" for clips you don't want: they're removed for good after 5 seconds (there's an Undo).</p>
   </details>
 </div>
 
@@ -124,7 +126,7 @@ function card(c){
         <span class="stars" role="group" aria-label="Rating">${[1,2,3].map(k=>`<button data-star="${k}" class="${st>=k?"on":""}" aria-label="${k} star" ${canWrite?"":"disabled"}>★</button>`).join("")}</span></div>
       <div class="row">${OUTCOMES.map(([v,l,cls])=>`<button class="tag out ${cls}${c.outcome===v?" on":""}" data-out="${v}" ${canWrite?"":"disabled"}>${l}</button>`).join("")}</div>
       <div class="row">${ACTIONS.map(a=>`<button class="tag${tags.includes(a)?" on":""}" data-tag="${a}" ${canWrite?"":"disabled"}>${a}</button>`).join("")}
-        <button class="tag${c.skip?" on":""}" data-skip="1" ${canWrite?"":"disabled"}>skip</button></div>
+        <button class="tag" data-skip="1" ${canWrite?"":"disabled"}>skip (delete)</button></div>
       <input class="note" data-note placeholder="note (player, what happened)" value="${esc(c.note||"")}" ${canWrite?"":"disabled"} aria-label="Note for ${esc(c.id)}">
       <span class="saved" data-saved></span>
     </div></article>`;
@@ -164,13 +166,30 @@ document.addEventListener("click",e=>{
   if(b.dataset.star){const k=+b.dataset.star;save(id,{stars:c.stars===k?0:k},cardEl)}
   else if(b.dataset.out){save(id,{outcome:c.outcome===b.dataset.out?"":b.dataset.out},cardEl)}
   else if(b.dataset.tag){const t=new Set(c.tags||[]);t.has(b.dataset.tag)?t.delete(b.dataset.tag):t.add(b.dataset.tag);save(id,{tags:[...t]},cardEl)}
-  else if(b.dataset.skip){save(id,{skip:!c.skip},cardEl)}
+  else if(b.dataset.skip){removeClip(id,cardEl);return}
+  else if(b.dataset.undo){clearTimeout(pending[id]);delete pending[id];cardEl.querySelector(".gone")?.remove();cardEl.classList.remove("skip");return}
   else return;
   // update just this card so playback isn't interrupted
   const fresh=document.createElement("div");fresh.innerHTML=card(c);
   cardEl.querySelector(".body").replaceWith(fresh.querySelector(".body"));
   cardEl.className=fresh.firstElementChild.className;renderStats();
 });
+// skip = delete: the card greys out with a 5 s undo, then the clip is removed for good
+const pending={};
+function removeClip(id,cardEl){
+  if(pending[id])return;
+  cardEl.classList.add("skip");
+  const bar=document.createElement("div");bar.className="gone";
+  bar.innerHTML=`<span>Removing…</span><button class="tag" data-undo="1">Undo</button>`;
+  cardEl.querySelector(".vid").appendChild(bar);
+  pending[id]=setTimeout(async()=>{
+    delete pending[id];
+    try{
+      if(db){await db.doc("removed/"+id).set({at:new Date().toISOString()});await db.doc("clips/"+id).delete()}
+      clips=clips.filter(x=>x.id!==id);cardEl.remove();renderStats();
+    }catch(e){bar.querySelector("span").textContent="Couldn't remove. Try again."}
+  },5000);
+}
 document.addEventListener("change",e=>{if(e.target.matches("[data-note]")){const el=e.target.closest(".card");save(el.dataset.id,{note:e.target.value},el)}});
 document.getElementById("copy").addEventListener("click",async()=>{
   const rows=clips.filter(c=>(c.stars||0)>=2).sort((a,b)=>(b.stars-a.stars)||(a.start-b.start))

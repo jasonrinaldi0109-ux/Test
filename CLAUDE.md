@@ -23,7 +23,9 @@ Jason Rinaldi co-runs **Fluid Experiences** (basketball development: small-group
 
 ## Division of labour (agreed 19 Nov)
 - Jason edits the final videos himself (CapCut). Claude's job is to remove the slow part: finding, trimming and framing clips in long sessions, plus scripts, captions and the clip library. A VA may later do the tagging (make/miss/quality) from a Google Sheet; Claude cuts from the timestamps.
-- Clips go to Google Drive (the Dropbox connector can't upload video).
+- Clips go to Google Drive (the Dropbox connector can't upload video). Connector calls carry at most ~3.1 MB of file, so full-quality clips (~5 MB) don't fit; question to Jason open: starred-only full-quality downloads on the page (Claude's pick) vs 720p to Drive vs timestamps only.
+- Clip Library page: https://claude.ai/artifact/YKmd4ARjedhGzgre6ywMPZ. Pipeline per session: `studio/analyse.py` → `studio/clipper.py <sess> --render --part=k/4` (4 workers) → `studio/seed_library.py <sess> "<name>" --chunk=20` (packs previews ~20 per file: the page holds ≤511 files) → publish page with `root=studio/library` + new files → ArtifactData batch-set the seed docs.
+- Jason's rule (19 Nov): anything he skips is deleted straight away. The page deletes the clip doc after a 5 s undo and writes `removed/<id>`. On each visit, read `removed` and delete the matching local files (`studio/sessions/*/clips/<id>_*`, `studio/library/<p>/<id>.mp4`, seed doc), and null any per-clip published file on the next publish. Packed chunk files keep the bytes until a repack. Already removed: p1 c001–c011 (far-end stations, first 3 min).
 
 ## Jason's style, from his posted point guard reel (19 Nov, "final edit of point guard workout.mp4", 47.5 s)
 - 19 shots, mean 2.5 s. Opener held long (6.8 s); the middle runs 1–3 s cuts; the last three reps are 4 s each.
