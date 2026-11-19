@@ -8,3 +8,4 @@ __pycache__/
 studio/sessions/*/clips/
 studio/sessions/*/audio16k.wav
 studio/sessions/*/analysis.json
+studio/library/
