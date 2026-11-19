@@ -117,7 +117,7 @@ function renderStats(){
 function card(c){
   const st=c.stars||0,tags=c.tags||[];
   return `<article class="card${st>=2?" star":""}${c.skip?" skip":""}" data-id="${esc(c.id)}">
-    <div class="vid"><video src="${esc(c.previewUrl)}" muted loop playsinline preload="none" aria-label="Clip ${esc(c.id)}"></video>
+    <div class="vid"><video src="${esc(c.previewUrl)}${c.previewEnd!=null?"#t="+c.previewStart+","+c.previewEnd:""}" muted ${c.previewEnd!=null?`data-s="${c.previewStart}" data-e="${c.previewEnd}"`:"loop"} playsinline preload="none" aria-label="Clip ${esc(c.id)}"></video>
       <div class="meta"><span class="pill ${typeCls(c.type)}">${esc(c.type)}</span>${c.shared?'<span class="pill">shared frame</span>':""}${c.blocked?'<span class="pill">blocked view</span>':""}</div></div>
     <div class="body">
       <div class="row" style="justify-content:space-between"><span class="tc">${c.part?"P"+c.part+" · ":""}${mmss(c.start)}–${mmss(c.end)}</span>
@@ -140,6 +140,13 @@ let io=null;
 function observe(){
   io?.disconnect();
   io=new IntersectionObserver(es=>es.forEach(e=>{const v=e.target;if(e.isIntersecting){v.preload="auto";v.play().catch(()=>{})}else v.pause()}),{rootMargin:"100px"});
+  // packed previews: several clips share one file; keep each card looping inside its own window
+  document.querySelectorAll(".vid video[data-e]").forEach(v=>{
+    const s=+v.dataset.s,e=+v.dataset.e;
+    v.addEventListener("loadedmetadata",()=>{v.currentTime=s},{once:true});
+    v.addEventListener("timeupdate",()=>{if(v.currentTime>=e-0.05||v.currentTime<s-0.2){v.currentTime=s;v.play().catch(()=>{})}});
+    v.addEventListener("pause",()=>{},{passive:true});
+  });
   document.querySelectorAll(".vid video").forEach(v=>io.observe(v));
 }
 async function save(id,patch,node){

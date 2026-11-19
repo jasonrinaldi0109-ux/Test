@@ -1,0 +1,5748 @@
+{
+ "src": "inbox/part3.mov",
+ "clips": [
+  {
+   "id": "c001",
+   "start": 0,
+   "end": 7.94,
+   "dur": 7.94,
+   "type": "coaching",
+   "why": "someone talking on 31% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": true,
+   "evidence": {
+    "motion": 0.19703,
+    "speech": 0.31,
+    "ball": 1.0,
+    "travel": 0.215,
+    "blobs": 49.0,
+    "spread": 0.84
+   }
+  },
+  {
+   "id": "c002",
+   "start": 7.94,
+   "end": 16.58,
+   "dur": 8.64,
+   "type": "coaching",
+   "why": "someone talking on 26% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.05424,
+    "speech": 0.26,
+    "ball": 1.0,
+    "travel": 0.152,
+    "blobs": 12.5,
+    "spread": 0.79
+   }
+  },
+  {
+   "id": "c003",
+   "start": 16.58,
+   "end": 20.78,
+   "dur": 4.2,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.03424,
+    "speech": 0.06,
+    "ball": 1.0,
+    "travel": 0.69,
+    "blobs": 6.0,
+    "spread": 0.81
+   }
+  },
+  {
+   "id": "c004",
+   "start": 20.78,
+   "end": 28.25,
+   "dur": 7.47,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.06771,
+    "speech": 0.1,
+    "ball": 1.0,
+    "travel": 0.069,
+    "blobs": 4.0,
+    "spread": 0.55
+   }
+  },
+  {
+   "id": "c005",
+   "start": 28.25,
+   "end": 35.96,
+   "dur": 7.7,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.0649,
+    "speech": 0.03,
+    "ball": 1.0,
+    "travel": 0.173,
+    "blobs": 3.0,
+    "spread": 0.43
+   }
+  },
+  {
+   "id": "c006",
+   "start": 35.96,
+   "end": 41.56,
+   "dur": 5.6,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.04805,
+    "speech": 0.13,
+    "ball": 1.0,
+    "travel": 0.322,
+    "blobs": 4.0,
+    "spread": 0.71
+   }
+  },
+  {
+   "id": "c007",
+   "start": 41.56,
+   "end": 45.7,
+   "dur": 4.14,
+   "type": "coaching",
+   "why": "someone talking on 38% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.0304,
+    "speech": 0.38,
+    "ball": 1.0,
+    "travel": 0.848,
+    "blobs": 6.5,
+    "spread": 0.96
+   }
+  },
+  {
+   "id": "c008",
+   "start": 47.0,
+   "end": 55.1,
+   "dur": 8.11,
+   "type": "coaching",
+   "why": "someone talking on 33% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.03324,
+    "speech": 0.33,
+    "ball": 1.0,
+    "travel": 0.091,
+    "blobs": 5.0,
+    "spread": 0.82
+   }
+  },
+  {
+   "id": "c009",
+   "start": 55.1,
+   "end": 61.18,
+   "dur": 6.07,
+   "type": "coaching",
+   "why": "someone talking on 29% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02914,
+    "speech": 0.29,
+    "ball": 1.0,
+    "travel": 0.012,
+    "blobs": 3.0,
+    "spread": 0.73
+   }
+  },
+  {
+   "id": "c010",
+   "start": 61.18,
+   "end": 65.38,
+   "dur": 4.2,
+   "type": "coaching",
+   "why": "someone talking on 29% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.03943,
+    "speech": 0.29,
+    "ball": 1.0,
+    "travel": 0.353,
+    "blobs": 4.0,
+    "spread": 0.77
+   }
+  },
+  {
+   "id": "c011",
+   "start": 65.38,
+   "end": 69.58,
+   "dur": 4.2,
+   "type": "coaching",
+   "why": "someone talking on 35% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.05546,
+    "speech": 0.35,
+    "ball": 1.0,
+    "travel": 0.476,
+    "blobs": 4.0,
+    "spread": 0.7
+   }
+  },
+  {
+   "id": "c012",
+   "start": 69.58,
+   "end": 78.45,
+   "dur": 8.87,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.07198,
+    "speech": 0.11,
+    "ball": 1.0,
+    "travel": 0.173,
+    "blobs": 3.0,
+    "spread": 0.72
+   }
+  },
+  {
+   "id": "c013",
+   "start": 78.45,
+   "end": 87.03,
+   "dur": 8.57,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02187,
+    "speech": 0.09,
+    "ball": 1.0,
+    "travel": 0.161,
+    "blobs": 3.0,
+    "spread": 0.18
+   }
+  },
+  {
+   "id": "c014",
+   "start": 88.79,
+   "end": 97.6,
+   "dur": 8.81,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02901,
+    "speech": 0.06,
+    "ball": 1.0,
+    "travel": 0.075,
+    "blobs": 2.0,
+    "spread": 0.95
+   }
+  },
+  {
+   "id": "c015",
+   "start": 97.6,
+   "end": 103.2,
+   "dur": 5.6,
+   "type": "coaching",
+   "why": "someone talking on 50% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02406,
+    "speech": 0.5,
+    "ball": 1.0,
+    "travel": 0.054,
+    "blobs": 2.0,
+    "spread": 0.2
+   }
+  },
+  {
+   "id": "c016",
+   "start": 103.2,
+   "end": 112.08,
+   "dur": 8.87,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": true,
+   "evidence": {
+    "motion": 0.23311,
+    "speech": 0.14,
+    "ball": 1.0,
+    "travel": 0.118,
+    "blobs": 16.0,
+    "spread": 0.85
+   }
+  },
+  {
+   "id": "c017",
+   "start": 112.08,
+   "end": 119.95,
+   "dur": 7.87,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": true,
+   "evidence": {
+    "motion": 0.10586,
+    "speech": 0.13,
+    "ball": 1.0,
+    "travel": 0.283,
+    "blobs": 63.0,
+    "spread": 0.86
+   }
+  },
+  {
+   "id": "c018",
+   "start": 121.02,
+   "end": 127.72,
+   "dur": 6.7,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01797,
+    "speech": 0.23,
+    "ball": 1.0,
+    "travel": 0.175,
+    "blobs": 4.0,
+    "spread": 0.55
+   }
+  },
+  {
+   "id": "c019",
+   "start": 127.72,
+   "end": 136.13,
+   "dur": 8.41,
+   "type": "coaching",
+   "why": "someone talking on 44% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02389,
+    "speech": 0.44,
+    "ball": 1.0,
+    "travel": 0.08,
+    "blobs": 5.0,
+    "spread": 0.77
+   }
+  },
+  {
+   "id": "c020",
+   "start": 136.13,
+   "end": 144.3,
+   "dur": 8.17,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01955,
+    "speech": 0.09,
+    "ball": 1.0,
+    "travel": 0.095,
+    "blobs": 5.0,
+    "spread": 0.62
+   }
+  },
+  {
+   "id": "c021",
+   "start": 144.3,
+   "end": 148.5,
+   "dur": 4.2,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.00791,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.158,
+    "blobs": 4.0,
+    "spread": 0.33
+   }
+  },
+  {
+   "id": "c022",
+   "start": 148.5,
+   "end": 152.94,
+   "dur": 4.44,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01037,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.154,
+    "blobs": 5.0,
+    "spread": 0.55
+   }
+  },
+  {
+   "id": "c023",
+   "start": 152.94,
+   "end": 161.81,
+   "dur": 8.87,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02283,
+    "speech": 0.08,
+    "ball": 1.0,
+    "travel": 0.144,
+    "blobs": 3.0,
+    "spread": 0.62
+   }
+  },
+  {
+   "id": "c024",
+   "start": 161.81,
+   "end": 169.05,
+   "dur": 7.24,
+   "type": "coaching",
+   "why": "someone talking on 34% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01264,
+    "speech": 0.34,
+    "ball": 1.0,
+    "travel": 0.264,
+    "blobs": 4.5,
+    "spread": 0.88
+   }
+  },
+  {
+   "id": "c025",
+   "start": 169.05,
+   "end": 175.59,
+   "dur": 6.54,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01356,
+    "speech": 0.12,
+    "ball": 0.97,
+    "travel": 0.33,
+    "blobs": 5.0,
+    "spread": 0.84
+   }
+  },
+  {
+   "id": "c026",
+   "start": 175.59,
+   "end": 179.79,
+   "dur": 4.2,
+   "type": "coaching",
+   "why": "someone talking on 76% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01623,
+    "speech": 0.76,
+    "ball": 1.0,
+    "travel": 0.045,
+    "blobs": 4.0,
+    "spread": 0.14
+   }
+  },
+  {
+   "id": "c027",
+   "start": 179.79,
+   "end": 183.99,
+   "dur": 4.2,
+   "type": "coaching",
+   "why": "someone talking on 56% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02191,
+    "speech": 0.56,
+    "ball": 1.0,
+    "travel": 0.057,
+    "blobs": 4.0,
+    "spread": 0.14
+   }
+  },
+  {
+   "id": "c028",
+   "start": 183.99,
+   "end": 192.87,
+   "dur": 8.87,
+   "type": "coaching",
+   "why": "someone talking on 28% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.05279,
+    "speech": 0.28,
+    "ball": 1.0,
+    "travel": 0.152,
+    "blobs": 4.0,
+    "spread": 0.49
+   }
+  },
+  {
+   "id": "c029",
+   "start": 192.87,
+   "end": 201.67,
+   "dur": 8.81,
+   "type": "coaching",
+   "why": "someone talking on 34% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01364,
+    "speech": 0.34,
+    "ball": 1.0,
+    "travel": 0.751,
+    "blobs": 4.5,
+    "spread": 0.74
+   }
+  },
+  {
+   "id": "c030",
+   "start": 205.08,
+   "end": 213.88,
+   "dur": 8.81,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02477,
+    "speech": 0.17,
+    "ball": 1.0,
+    "travel": 0.217,
+    "blobs": 5.0,
+    "spread": 0.51
+   }
+  },
+  {
+   "id": "c031",
+   "start": 213.88,
+   "end": 220.35,
+   "dur": 6.47,
+   "type": "coaching",
+   "why": "someone talking on 46% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01403,
+    "speech": 0.46,
+    "ball": 1.0,
+    "travel": 0.077,
+    "blobs": 1.0,
+    "spread": 0.42
+   }
+  },
+  {
+   "id": "c032",
+   "start": 222.35,
+   "end": 226.49,
+   "dur": 4.14,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02027,
+    "speech": 0.06,
+    "ball": 1.0,
+    "travel": 0.232,
+    "blobs": 6.0,
+    "spread": 0.8
+   }
+  },
+  {
+   "id": "c033",
+   "start": 226.49,
+   "end": 235.36,
+   "dur": 8.87,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.03187,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.201,
+    "blobs": 4.0,
+    "spread": 0.54
+   }
+  },
+  {
+   "id": "c034",
+   "start": 235.36,
+   "end": 240.03,
+   "dur": 4.67,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01377,
+    "speech": 0.21,
+    "ball": 1.0,
+    "travel": 0.132,
+    "blobs": 2.0,
+    "spread": 0.39
+   }
+  },
+  {
+   "id": "c035",
+   "start": 240.03,
+   "end": 244.24,
+   "dur": 4.2,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01243,
+    "speech": 0.19,
+    "ball": 1.0,
+    "travel": 0.05,
+    "blobs": 3.0,
+    "spread": 0.37
+   }
+  },
+  {
+   "id": "c036",
+   "start": 244.24,
+   "end": 248.44,
+   "dur": 4.2,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01749,
+    "speech": 0.12,
+    "ball": 1.0,
+    "travel": 0.032,
+    "blobs": 6.0,
+    "spread": 0.92
+   }
+  },
+  {
+   "id": "c037",
+   "start": 248.44,
+   "end": 255.44,
+   "dur": 7.01,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.05078,
+    "speech": 0.07,
+    "ball": 1.0,
+    "travel": 0.338,
+    "blobs": 3.0,
+    "spread": 0.75
+   }
+  },
+  {
+   "id": "c038",
+   "start": 255.44,
+   "end": 259.58,
+   "dur": 4.14,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.03548,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.168,
+    "blobs": 3.0,
+    "spread": 0.55
+   }
+  },
+  {
+   "id": "c039",
+   "start": 265.32,
+   "end": 269.45,
+   "dur": 4.14,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01885,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.21,
+    "blobs": 6.0,
+    "spread": 0.83
+   }
+  },
+  {
+   "id": "c040",
+   "start": 269.45,
+   "end": 277.86,
+   "dur": 8.41,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.03479,
+    "speech": 0.06,
+    "ball": 1.0,
+    "travel": 0.072,
+    "blobs": 4.0,
+    "spread": 0.56
+   }
+  },
+  {
+   "id": "c041",
+   "start": 277.86,
+   "end": 284.16,
+   "dur": 6.3,
+   "type": "coaching",
+   "why": "someone talking on 44% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02247,
+    "speech": 0.44,
+    "ball": 1.0,
+    "travel": 0.258,
+    "blobs": 3.5,
+    "spread": 0.47
+   }
+  },
+  {
+   "id": "c042",
+   "start": 284.16,
+   "end": 288.37,
+   "dur": 4.2,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02176,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.233,
+    "blobs": 4.0,
+    "spread": 0.83
+   }
+  },
+  {
+   "id": "c043",
+   "start": 288.37,
+   "end": 292.57,
+   "dur": 4.2,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.03527,
+    "speech": 0.18,
+    "ball": 1.0,
+    "travel": 0.198,
+    "blobs": 4.0,
+    "spread": 0.81
+   }
+  },
+  {
+   "id": "c044",
+   "start": 292.57,
+   "end": 301.44,
+   "dur": 8.87,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.05137,
+    "speech": 0.06,
+    "ball": 1.0,
+    "travel": 0.164,
+    "blobs": 4.0,
+    "spread": 0.72
+   }
+  },
+  {
+   "id": "c045",
+   "start": 301.44,
+   "end": 306.11,
+   "dur": 4.67,
+   "type": "coaching",
+   "why": "someone talking on 37% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02088,
+    "speech": 0.37,
+    "ball": 1.0,
+    "travel": 0.226,
+    "blobs": 4.0,
+    "spread": 0.7
+   }
+  },
+  {
+   "id": "c046",
+   "start": 306.11,
+   "end": 311.48,
+   "dur": 5.37,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02725,
+    "speech": 0.14,
+    "ball": 1.0,
+    "travel": 0.205,
+    "blobs": 3.0,
+    "spread": 0.41
+   }
+  },
+  {
+   "id": "c047",
+   "start": 311.48,
+   "end": 319.19,
+   "dur": 7.7,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02053,
+    "speech": 0.1,
+    "ball": 1.0,
+    "travel": 0.222,
+    "blobs": 4.5,
+    "spread": 0.75
+   }
+  },
+  {
+   "id": "c048",
+   "start": 319.19,
+   "end": 326.89,
+   "dur": 7.7,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.03965,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.383,
+    "blobs": 4.0,
+    "spread": 0.78
+   }
+  },
+  {
+   "id": "c049",
+   "start": 326.89,
+   "end": 331.1,
+   "dur": 4.2,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02355,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.074,
+    "blobs": 3.0,
+    "spread": 0.33
+   }
+  },
+  {
+   "id": "c050",
+   "start": 331.1,
+   "end": 336.7,
+   "dur": 5.6,
+   "type": "coaching",
+   "why": "someone talking on 32% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02452,
+    "speech": 0.32,
+    "ball": 1.0,
+    "travel": 0.049,
+    "blobs": 4.0,
+    "spread": 0.43
+   }
+  },
+  {
+   "id": "c051",
+   "start": 336.7,
+   "end": 345.57,
+   "dur": 8.87,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02559,
+    "speech": 0.11,
+    "ball": 1.0,
+    "travel": 0.129,
+    "blobs": 3.0,
+    "spread": 0.24
+   }
+  },
+  {
+   "id": "c052",
+   "start": 345.57,
+   "end": 354.44,
+   "dur": 8.87,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.03287,
+    "speech": 0.03,
+    "ball": 1.0,
+    "travel": 0.288,
+    "blobs": 4.0,
+    "spread": 0.36
+   }
+  },
+  {
+   "id": "c053",
+   "start": 354.44,
+   "end": 359.81,
+   "dur": 5.37,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.03274,
+    "speech": 0.23,
+    "ball": 1.0,
+    "travel": 0.171,
+    "blobs": 4.0,
+    "spread": 0.59
+   }
+  },
+  {
+   "id": "c054",
+   "start": 359.81,
+   "end": 368.69,
+   "dur": 8.87,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.0317,
+    "speech": 0.14,
+    "ball": 1.0,
+    "travel": 0.171,
+    "blobs": 4.0,
+    "spread": 0.4
+   }
+  },
+  {
+   "id": "c055",
+   "start": 368.69,
+   "end": 377.56,
+   "dur": 8.87,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02647,
+    "speech": 0.17,
+    "ball": 1.0,
+    "travel": 0.228,
+    "blobs": 4.0,
+    "spread": 0.44
+   }
+  },
+  {
+   "id": "c056",
+   "start": 377.56,
+   "end": 385.43,
+   "dur": 7.87,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02346,
+    "speech": 0.1,
+    "ball": 1.0,
+    "travel": 0.098,
+    "blobs": 4.0,
+    "spread": 0.5
+   }
+  },
+  {
+   "id": "c057",
+   "start": 388.37,
+   "end": 393.44,
+   "dur": 5.07,
+   "type": "coaching",
+   "why": "someone talking on 30% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01465,
+    "speech": 0.3,
+    "ball": 1.0,
+    "travel": 0.187,
+    "blobs": 4.0,
+    "spread": 0.36
+   }
+  },
+  {
+   "id": "c058",
+   "start": 393.44,
+   "end": 400.44,
+   "dur": 7.0,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02718,
+    "speech": 0.14,
+    "ball": 1.0,
+    "travel": 0.095,
+    "blobs": 4.0,
+    "spread": 0.52
+   }
+  },
+  {
+   "id": "c059",
+   "start": 400.44,
+   "end": 407.15,
+   "dur": 6.7,
+   "type": "coaching",
+   "why": "someone talking on 33% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01873,
+    "speech": 0.33,
+    "ball": 1.0,
+    "travel": 0.078,
+    "blobs": 4.0,
+    "spread": 0.58
+   }
+  },
+  {
+   "id": "c060",
+   "start": 408.45,
+   "end": 417.25,
+   "dur": 8.81,
+   "type": "coaching",
+   "why": "someone talking on 36% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.0348,
+    "speech": 0.36,
+    "ball": 1.0,
+    "travel": 0.162,
+    "blobs": 4.0,
+    "spread": 0.49
+   }
+  },
+  {
+   "id": "c061",
+   "start": 417.25,
+   "end": 422.16,
+   "dur": 4.9,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02332,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.181,
+    "blobs": 4.0,
+    "spread": 0.3
+   }
+  },
+  {
+   "id": "c062",
+   "start": 422.16,
+   "end": 427.53,
+   "dur": 5.37,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01636,
+    "speech": 0.05,
+    "ball": 1.0,
+    "travel": 0.145,
+    "blobs": 4.0,
+    "spread": 0.36
+   }
+  },
+  {
+   "id": "c063",
+   "start": 427.53,
+   "end": 433.13,
+   "dur": 5.6,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01913,
+    "speech": 0.09,
+    "ball": 1.0,
+    "travel": 0.315,
+    "blobs": 4.0,
+    "spread": 0.57
+   }
+  },
+  {
+   "id": "c064",
+   "start": 433.13,
+   "end": 440.6,
+   "dur": 7.47,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.03071,
+    "speech": 0.17,
+    "ball": 1.0,
+    "travel": 0.113,
+    "blobs": 3.0,
+    "spread": 0.59
+   }
+  },
+  {
+   "id": "c065",
+   "start": 440.6,
+   "end": 445.27,
+   "dur": 4.67,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.0258,
+    "speech": 0.11,
+    "ball": 1.0,
+    "travel": 0.114,
+    "blobs": 4.0,
+    "spread": 0.34
+   }
+  },
+  {
+   "id": "c066",
+   "start": 445.27,
+   "end": 451.58,
+   "dur": 6.31,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02167,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.037,
+    "blobs": 3.0,
+    "spread": 0.2
+   }
+  },
+  {
+   "id": "c067",
+   "start": 451.58,
+   "end": 455.78,
+   "dur": 4.2,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02523,
+    "speech": 0.06,
+    "ball": 1.0,
+    "travel": 0.126,
+    "blobs": 4.0,
+    "spread": 0.32
+   }
+  },
+  {
+   "id": "c068",
+   "start": 455.78,
+   "end": 464.35,
+   "dur": 8.57,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02934,
+    "speech": 0.09,
+    "ball": 1.0,
+    "travel": 0.091,
+    "blobs": 3.0,
+    "spread": 0.56
+   }
+  },
+  {
+   "id": "c069",
+   "start": 470.09,
+   "end": 474.23,
+   "dur": 4.14,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01518,
+    "speech": 0.12,
+    "ball": 1.0,
+    "travel": 0.139,
+    "blobs": 5.0,
+    "spread": 0.57
+   }
+  },
+  {
+   "id": "c070",
+   "start": 474.23,
+   "end": 478.66,
+   "dur": 4.44,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02651,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.097,
+    "blobs": 5.0,
+    "spread": 0.7
+   }
+  },
+  {
+   "id": "c071",
+   "start": 478.66,
+   "end": 485.67,
+   "dur": 7.0,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.03836,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.044,
+    "blobs": 3.0,
+    "spread": 0.61
+   }
+  },
+  {
+   "id": "c072",
+   "start": 485.67,
+   "end": 491.74,
+   "dur": 6.07,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.03167,
+    "speech": 0.08,
+    "ball": 1.0,
+    "travel": 0.054,
+    "blobs": 3.0,
+    "spread": 0.55
+   }
+  },
+  {
+   "id": "c073",
+   "start": 491.74,
+   "end": 497.04,
+   "dur": 5.3,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02343,
+    "speech": 0.23,
+    "ball": 1.0,
+    "travel": 0.155,
+    "blobs": 3.0,
+    "spread": 0.52
+   }
+  },
+  {
+   "id": "c074",
+   "start": 498.11,
+   "end": 506.68,
+   "dur": 8.57,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01932,
+    "speech": 0.03,
+    "ball": 1.0,
+    "travel": 0.51,
+    "blobs": 4.0,
+    "spread": 0.53
+   }
+  },
+  {
+   "id": "c075",
+   "start": 506.68,
+   "end": 512.05,
+   "dur": 5.37,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02226,
+    "speech": 0.18,
+    "ball": 1.0,
+    "travel": 0.27,
+    "blobs": 5.0,
+    "spread": 0.78
+   }
+  },
+  {
+   "id": "c076",
+   "start": 512.05,
+   "end": 516.26,
+   "dur": 4.2,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01529,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.165,
+    "blobs": 6.0,
+    "spread": 0.81
+   }
+  },
+  {
+   "id": "c077",
+   "start": 516.26,
+   "end": 525.13,
+   "dur": 8.87,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.03,
+    "speech": 0.14,
+    "ball": 1.0,
+    "travel": 0.154,
+    "blobs": 3.0,
+    "spread": 0.51
+   }
+  },
+  {
+   "id": "c078",
+   "start": 525.13,
+   "end": 529.33,
+   "dur": 4.2,
+   "type": "coaching",
+   "why": "someone talking on 47% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.00926,
+    "speech": 0.47,
+    "ball": 1.0,
+    "travel": 0.041,
+    "blobs": 5.0,
+    "spread": 0.3
+   }
+  },
+  {
+   "id": "c079",
+   "start": 529.33,
+   "end": 533.53,
+   "dur": 4.2,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01004,
+    "speech": 0.12,
+    "ball": 1.0,
+    "travel": 0.094,
+    "blobs": 5.0,
+    "spread": 0.19
+   }
+  },
+  {
+   "id": "c080",
+   "start": 533.53,
+   "end": 538.67,
+   "dur": 5.14,
+   "type": "coaching",
+   "why": "someone talking on 50% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01359,
+    "speech": 0.5,
+    "ball": 1.0,
+    "travel": 0.06,
+    "blobs": 5.0,
+    "spread": 0.3
+   }
+  },
+  {
+   "id": "c081",
+   "start": 538.67,
+   "end": 547.54,
+   "dur": 8.87,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01977,
+    "speech": 0.14,
+    "ball": 1.0,
+    "travel": 0.196,
+    "blobs": 4.0,
+    "spread": 0.54
+   }
+  },
+  {
+   "id": "c082",
+   "start": 547.54,
+   "end": 556.42,
+   "dur": 8.87,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02488,
+    "speech": 0.09,
+    "ball": 1.0,
+    "travel": 0.123,
+    "blobs": 3.0,
+    "spread": 0.57
+   }
+  },
+  {
+   "id": "c083",
+   "start": 556.42,
+   "end": 561.09,
+   "dur": 4.67,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01365,
+    "speech": 0.16,
+    "ball": 1.0,
+    "travel": 0.217,
+    "blobs": 4.0,
+    "spread": 0.29
+   }
+  },
+  {
+   "id": "c084",
+   "start": 561.09,
+   "end": 565.29,
+   "dur": 4.2,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01562,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.094,
+    "blobs": 3.0,
+    "spread": 0.2
+   }
+  },
+  {
+   "id": "c085",
+   "start": 565.29,
+   "end": 573.7,
+   "dur": 8.41,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.03397,
+    "speech": 0.03,
+    "ball": 1.0,
+    "travel": 0.087,
+    "blobs": 3.0,
+    "spread": 0.5
+   }
+  },
+  {
+   "id": "c086",
+   "start": 573.7,
+   "end": 577.83,
+   "dur": 4.14,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01787,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.074,
+    "blobs": 3.0,
+    "spread": 0.27
+   }
+  },
+  {
+   "id": "c087",
+   "start": 582.17,
+   "end": 586.54,
+   "dur": 4.37,
+   "type": "coaching",
+   "why": "someone talking on 28% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01411,
+    "speech": 0.28,
+    "ball": 1.0,
+    "travel": 0.234,
+    "blobs": 5.0,
+    "spread": 0.3
+   }
+  },
+  {
+   "id": "c088",
+   "start": 586.54,
+   "end": 590.98,
+   "dur": 4.44,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02736,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.295,
+    "blobs": 4.0,
+    "spread": 0.49
+   }
+  },
+  {
+   "id": "c089",
+   "start": 590.98,
+   "end": 596.81,
+   "dur": 5.84,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.04093,
+    "speech": 0.04,
+    "ball": 1.0,
+    "travel": 0.252,
+    "blobs": 5.0,
+    "spread": 0.52
+   }
+  },
+  {
+   "id": "c090",
+   "start": 596.81,
+   "end": 605.68,
+   "dur": 8.87,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.03602,
+    "speech": 0.17,
+    "ball": 1.0,
+    "travel": 0.081,
+    "blobs": 3.0,
+    "spread": 0.49
+   }
+  },
+  {
+   "id": "c091",
+   "start": 605.68,
+   "end": 609.82,
+   "dur": 4.14,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01279,
+    "speech": 0.24,
+    "ball": 1.0,
+    "travel": 0.096,
+    "blobs": 2.0,
+    "spread": 0.16
+   }
+  },
+  {
+   "id": "c092",
+   "start": 623.96,
+   "end": 628.1,
+   "dur": 4.14,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01966,
+    "speech": 0.18,
+    "ball": 1.0,
+    "travel": 0.056,
+    "blobs": 4.5,
+    "spread": 0.56
+   }
+  },
+  {
+   "id": "c093",
+   "start": 628.1,
+   "end": 633.7,
+   "dur": 5.6,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.03102,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.208,
+    "blobs": 4.0,
+    "spread": 0.62
+   }
+  },
+  {
+   "id": "c094",
+   "start": 633.7,
+   "end": 642.58,
+   "dur": 8.87,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.03816,
+    "speech": 0.03,
+    "ball": 1.0,
+    "travel": 0.175,
+    "blobs": 4.0,
+    "spread": 0.78
+   }
+  },
+  {
+   "id": "c095",
+   "start": 642.58,
+   "end": 647.95,
+   "dur": 5.37,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02277,
+    "speech": 0.05,
+    "ball": 1.0,
+    "travel": 0.12,
+    "blobs": 4.0,
+    "spread": 0.54
+   }
+  },
+  {
+   "id": "c096",
+   "start": 647.95,
+   "end": 652.15,
+   "dur": 4.2,
+   "type": "coaching",
+   "why": "someone talking on 29% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01466,
+    "speech": 0.29,
+    "ball": 1.0,
+    "travel": 0.037,
+    "blobs": 6.0,
+    "spread": 0.6
+   }
+  },
+  {
+   "id": "c097",
+   "start": 652.15,
+   "end": 659.86,
+   "dur": 7.71,
+   "type": "coaching",
+   "why": "someone talking on 35% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02048,
+    "speech": 0.35,
+    "ball": 1.0,
+    "travel": 0.08,
+    "blobs": 5.0,
+    "spread": 0.37
+   }
+  },
+  {
+   "id": "c098",
+   "start": 659.86,
+   "end": 664.53,
+   "dur": 4.67,
+   "type": "coaching",
+   "why": "someone talking on 26% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01952,
+    "speech": 0.26,
+    "ball": 1.0,
+    "travel": 0.019,
+    "blobs": 3.0,
+    "spread": 0.21
+   }
+  },
+  {
+   "id": "c099",
+   "start": 664.53,
+   "end": 668.73,
+   "dur": 4.2,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.0222,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.028,
+    "blobs": 2.0,
+    "spread": 0.16
+   }
+  },
+  {
+   "id": "c100",
+   "start": 668.73,
+   "end": 672.93,
+   "dur": 4.2,
+   "type": "coaching",
+   "why": "someone talking on 76% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.03805,
+    "speech": 0.76,
+    "ball": 1.0,
+    "travel": 0.022,
+    "blobs": 1.0,
+    "spread": 0.11
+   }
+  },
+  {
+   "id": "c101",
+   "start": 672.93,
+   "end": 680.57,
+   "dur": 7.64,
+   "type": "coaching",
+   "why": "someone talking on 26% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": true,
+   "evidence": {
+    "motion": 0.20716,
+    "speech": 0.26,
+    "ball": 1.0,
+    "travel": 0.267,
+    "blobs": 8.0,
+    "spread": 0.69
+   }
+  },
+  {
+   "id": "c102",
+   "start": 698.22,
+   "end": 705.39,
+   "dur": 7.17,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01952,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.022,
+    "blobs": 1.0,
+    "spread": 0.16
+   }
+  },
+  {
+   "id": "c103",
+   "start": 705.39,
+   "end": 712.86,
+   "dur": 7.47,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": true,
+   "evidence": {
+    "motion": 0.3882,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.213,
+    "blobs": 7.0,
+    "spread": 0.81
+   }
+  },
+  {
+   "id": "c104",
+   "start": 712.86,
+   "end": 717.53,
+   "dur": 4.67,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.05057,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.129,
+    "blobs": 5.0,
+    "spread": 0.5
+   }
+  },
+  {
+   "id": "c105",
+   "start": 717.53,
+   "end": 726.4,
+   "dur": 8.87,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.04909,
+    "speech": 0.03,
+    "ball": 1.0,
+    "travel": 0.087,
+    "blobs": 4.0,
+    "spread": 0.83
+   }
+  },
+  {
+   "id": "c106",
+   "start": 726.4,
+   "end": 733.64,
+   "dur": 7.24,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02135,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.415,
+    "blobs": 6.0,
+    "spread": 0.56
+   }
+  },
+  {
+   "id": "c107",
+   "start": 733.64,
+   "end": 742.51,
+   "dur": 8.87,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01681,
+    "speech": 0.22,
+    "ball": 1.0,
+    "travel": 0.134,
+    "blobs": 4.0,
+    "spread": 0.47
+   }
+  },
+  {
+   "id": "c108",
+   "start": 742.51,
+   "end": 746.72,
+   "dur": 4.2,
+   "type": "coaching",
+   "why": "someone talking on 31% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01422,
+    "speech": 0.31,
+    "ball": 1.0,
+    "travel": 0.232,
+    "blobs": 5.0,
+    "spread": 0.44
+   }
+  },
+  {
+   "id": "c109",
+   "start": 746.72,
+   "end": 751.15,
+   "dur": 4.44,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02194,
+    "speech": 0.11,
+    "ball": 1.0,
+    "travel": 0.064,
+    "blobs": 4.0,
+    "spread": 0.41
+   }
+  },
+  {
+   "id": "c110",
+   "start": 751.15,
+   "end": 760.02,
+   "dur": 8.87,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.0385,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.117,
+    "blobs": 4.0,
+    "spread": 0.74
+   }
+  },
+  {
+   "id": "c111",
+   "start": 760.02,
+   "end": 765.56,
+   "dur": 5.54,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02059,
+    "speech": 0.09,
+    "ball": 1.0,
+    "travel": 0.091,
+    "blobs": 4.0,
+    "spread": 0.47
+   }
+  },
+  {
+   "id": "c112",
+   "start": 766.63,
+   "end": 770.77,
+   "dur": 4.14,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01376,
+    "speech": 0.06,
+    "ball": 1.0,
+    "travel": 0.056,
+    "blobs": 3.0,
+    "spread": 0.35
+   }
+  },
+  {
+   "id": "c113",
+   "start": 770.77,
+   "end": 774.97,
+   "dur": 4.2,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02993,
+    "speech": 0.19,
+    "ball": 1.0,
+    "travel": 0.12,
+    "blobs": 4.0,
+    "spread": 0.3
+   }
+  },
+  {
+   "id": "c114",
+   "start": 774.97,
+   "end": 781.74,
+   "dur": 6.77,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.03801,
+    "speech": 0.22,
+    "ball": 1.0,
+    "travel": 0.349,
+    "blobs": 5.0,
+    "spread": 0.58
+   }
+  },
+  {
+   "id": "c115",
+   "start": 781.74,
+   "end": 788.28,
+   "dur": 6.54,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.04154,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.078,
+    "blobs": 5.0,
+    "spread": 0.83
+   }
+  },
+  {
+   "id": "c116",
+   "start": 788.28,
+   "end": 792.41,
+   "dur": 4.14,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02251,
+    "speech": 0.06,
+    "ball": 1.0,
+    "travel": 0.292,
+    "blobs": 4.0,
+    "spread": 0.48
+   }
+  },
+  {
+   "id": "c117",
+   "start": 797.45,
+   "end": 806.02,
+   "dur": 8.57,
+   "type": "coaching",
+   "why": "someone talking on 31% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02013,
+    "speech": 0.31,
+    "ball": 1.0,
+    "travel": 0.169,
+    "blobs": 6.0,
+    "spread": 0.47
+   }
+  },
+  {
+   "id": "c118",
+   "start": 806.02,
+   "end": 810.23,
+   "dur": 4.2,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02429,
+    "speech": 0.12,
+    "ball": 1.0,
+    "travel": 0.138,
+    "blobs": 6.0,
+    "spread": 0.39
+   }
+  },
+  {
+   "id": "c119",
+   "start": 810.23,
+   "end": 819.1,
+   "dur": 8.87,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.03696,
+    "speech": 0.19,
+    "ball": 1.0,
+    "travel": 0.107,
+    "blobs": 5.0,
+    "spread": 0.71
+   }
+  },
+  {
+   "id": "c120",
+   "start": 819.1,
+   "end": 825.64,
+   "dur": 6.54,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01878,
+    "speech": 0.04,
+    "ball": 1.0,
+    "travel": 0.146,
+    "blobs": 4.0,
+    "spread": 0.49
+   }
+  },
+  {
+   "id": "c121",
+   "start": 825.64,
+   "end": 829.84,
+   "dur": 4.2,
+   "type": "coaching",
+   "why": "someone talking on 35% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01279,
+    "speech": 0.35,
+    "ball": 1.0,
+    "travel": 0.039,
+    "blobs": 5.0,
+    "spread": 0.48
+   }
+  },
+  {
+   "id": "c122",
+   "start": 829.84,
+   "end": 838.71,
+   "dur": 8.87,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.04076,
+    "speech": 0.14,
+    "ball": 1.0,
+    "travel": 0.288,
+    "blobs": 5.0,
+    "spread": 0.71
+   }
+  },
+  {
+   "id": "c123",
+   "start": 838.71,
+   "end": 844.08,
+   "dur": 5.37,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02153,
+    "speech": 0.09,
+    "ball": 1.0,
+    "travel": 0.085,
+    "blobs": 4.5,
+    "spread": 0.44
+   }
+  },
+  {
+   "id": "c124",
+   "start": 844.08,
+   "end": 849.22,
+   "dur": 5.14,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01945,
+    "speech": 0.2,
+    "ball": 1.0,
+    "travel": 0.233,
+    "blobs": 6.0,
+    "spread": 0.48
+   }
+  },
+  {
+   "id": "c125",
+   "start": 849.22,
+   "end": 854.36,
+   "dur": 5.14,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01703,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.307,
+    "blobs": 6.0,
+    "spread": 0.47
+   }
+  },
+  {
+   "id": "c126",
+   "start": 854.36,
+   "end": 860.19,
+   "dur": 5.84,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02076,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.185,
+    "blobs": 6.0,
+    "spread": 0.45
+   }
+  },
+  {
+   "id": "c127",
+   "start": 860.19,
+   "end": 864.4,
+   "dur": 4.2,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02272,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.092,
+    "blobs": 5.0,
+    "spread": 0.67
+   }
+  },
+  {
+   "id": "c128",
+   "start": 864.4,
+   "end": 872.34,
+   "dur": 7.94,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.04619,
+    "speech": 0.03,
+    "ball": 1.0,
+    "travel": 0.084,
+    "blobs": 5.0,
+    "spread": 0.75
+   }
+  },
+  {
+   "id": "c129",
+   "start": 872.34,
+   "end": 878.41,
+   "dur": 6.07,
+   "type": "coaching",
+   "why": "someone talking on 33% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02528,
+    "speech": 0.33,
+    "ball": 1.0,
+    "travel": 0.074,
+    "blobs": 5.0,
+    "spread": 0.36
+   }
+  },
+  {
+   "id": "c130",
+   "start": 878.41,
+   "end": 883.31,
+   "dur": 4.9,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02287,
+    "speech": 0.25,
+    "ball": 1.0,
+    "travel": 0.03,
+    "blobs": 5.0,
+    "spread": 0.33
+   }
+  },
+  {
+   "id": "c131",
+   "start": 883.31,
+   "end": 887.51,
+   "dur": 4.2,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.0259,
+    "speech": 0.12,
+    "ball": 1.0,
+    "travel": 0.162,
+    "blobs": 5.0,
+    "spread": 0.45
+   }
+  },
+  {
+   "id": "c132",
+   "start": 887.51,
+   "end": 896.39,
+   "dur": 8.87,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.03979,
+    "speech": 0.03,
+    "ball": 1.0,
+    "travel": 0.12,
+    "blobs": 5.0,
+    "spread": 0.74
+   }
+  },
+  {
+   "id": "c133",
+   "start": 896.39,
+   "end": 902.69,
+   "dur": 6.3,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01993,
+    "speech": 0.16,
+    "ball": 1.0,
+    "travel": 0.194,
+    "blobs": 4.0,
+    "spread": 0.38
+   }
+  },
+  {
+   "id": "c134",
+   "start": 902.69,
+   "end": 909.0,
+   "dur": 6.3,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01779,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.106,
+    "blobs": 4.0,
+    "spread": 0.33
+   }
+  },
+  {
+   "id": "c135",
+   "start": 909.0,
+   "end": 913.2,
+   "dur": 4.2,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01697,
+    "speech": 0.12,
+    "ball": 1.0,
+    "travel": 0.126,
+    "blobs": 5.0,
+    "spread": 0.31
+   }
+  },
+  {
+   "id": "c136",
+   "start": 913.2,
+   "end": 918.1,
+   "dur": 4.9,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.03273,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.172,
+    "blobs": 5.0,
+    "spread": 0.71
+   }
+  },
+  {
+   "id": "c137",
+   "start": 918.1,
+   "end": 925.57,
+   "dur": 7.47,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.04035,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.134,
+    "blobs": 6.0,
+    "spread": 0.72
+   }
+  },
+  {
+   "id": "c138",
+   "start": 925.57,
+   "end": 929.78,
+   "dur": 4.2,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01624,
+    "speech": 0.24,
+    "ball": 1.0,
+    "travel": 0.064,
+    "blobs": 4.0,
+    "spread": 0.32
+   }
+  },
+  {
+   "id": "c139",
+   "start": 929.78,
+   "end": 933.98,
+   "dur": 4.2,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01735,
+    "speech": 0.25,
+    "ball": 1.0,
+    "travel": 0.195,
+    "blobs": 5.0,
+    "spread": 0.33
+   }
+  },
+  {
+   "id": "c140",
+   "start": 933.98,
+   "end": 942.15,
+   "dur": 8.17,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.03663,
+    "speech": 0.06,
+    "ball": 1.0,
+    "travel": 0.178,
+    "blobs": 6.0,
+    "spread": 0.81
+   }
+  },
+  {
+   "id": "c141",
+   "start": 942.15,
+   "end": 951.02,
+   "dur": 8.87,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.03464,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.081,
+    "blobs": 7.0,
+    "spread": 0.72
+   }
+  },
+  {
+   "id": "c142",
+   "start": 951.02,
+   "end": 957.79,
+   "dur": 6.77,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01634,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.15,
+    "blobs": 4.0,
+    "spread": 0.38
+   }
+  },
+  {
+   "id": "c143",
+   "start": 957.79,
+   "end": 965.73,
+   "dur": 7.94,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.0182,
+    "speech": 0.13,
+    "ball": 1.0,
+    "travel": 0.109,
+    "blobs": 5.0,
+    "spread": 0.34
+   }
+  },
+  {
+   "id": "c144",
+   "start": 965.73,
+   "end": 971.34,
+   "dur": 5.6,
+   "type": "coaching",
+   "why": "someone talking on 43% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02132,
+    "speech": 0.43,
+    "ball": 1.0,
+    "travel": 0.052,
+    "blobs": 5.0,
+    "spread": 0.34
+   }
+  },
+  {
+   "id": "c145",
+   "start": 971.34,
+   "end": 977.64,
+   "dur": 6.3,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02984,
+    "speech": 0.24,
+    "ball": 1.0,
+    "travel": 0.178,
+    "blobs": 6.0,
+    "spread": 0.8
+   }
+  },
+  {
+   "id": "c146",
+   "start": 977.64,
+   "end": 986.51,
+   "dur": 8.87,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.03203,
+    "speech": 0.06,
+    "ball": 1.0,
+    "travel": 0.115,
+    "blobs": 5.0,
+    "spread": 0.78
+   }
+  },
+  {
+   "id": "c147",
+   "start": 986.51,
+   "end": 990.72,
+   "dur": 4.2,
+   "type": "coaching",
+   "why": "someone talking on 50% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01443,
+    "speech": 0.5,
+    "ball": 1.0,
+    "travel": 0.148,
+    "blobs": 5.0,
+    "spread": 0.38
+   }
+  },
+  {
+   "id": "c148",
+   "start": 990.72,
+   "end": 997.96,
+   "dur": 7.24,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02619,
+    "speech": 0.1,
+    "ball": 1.0,
+    "travel": 0.156,
+    "blobs": 6.5,
+    "spread": 0.46
+   }
+  },
+  {
+   "id": "c149",
+   "start": 997.96,
+   "end": 1002.16,
+   "dur": 4.2,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02319,
+    "speech": 0.18,
+    "ball": 1.0,
+    "travel": 0.097,
+    "blobs": 6.0,
+    "spread": 0.83
+   }
+  },
+  {
+   "id": "c150",
+   "start": 1002.16,
+   "end": 1011.03,
+   "dur": 8.87,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.04195,
+    "speech": 0.08,
+    "ball": 1.0,
+    "travel": 0.058,
+    "blobs": 4.0,
+    "spread": 0.76
+   }
+  },
+  {
+   "id": "c151",
+   "start": 1011.03,
+   "end": 1018.97,
+   "dur": 7.94,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02101,
+    "speech": 0.1,
+    "ball": 1.0,
+    "travel": 0.1,
+    "blobs": 5.0,
+    "spread": 0.34
+   }
+  },
+  {
+   "id": "c152",
+   "start": 1018.97,
+   "end": 1025.51,
+   "dur": 6.54,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01528,
+    "speech": 0.04,
+    "ball": 1.0,
+    "travel": 0.182,
+    "blobs": 3.0,
+    "spread": 0.22
+   }
+  },
+  {
+   "id": "c153",
+   "start": 1025.51,
+   "end": 1032.28,
+   "dur": 6.77,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01245,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.146,
+    "blobs": 3.5,
+    "spread": 0.17
+   }
+  },
+  {
+   "id": "c154",
+   "start": 1032.28,
+   "end": 1037.18,
+   "dur": 4.9,
+   "type": "coaching",
+   "why": "someone talking on 37% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02395,
+    "speech": 0.37,
+    "ball": 1.0,
+    "travel": 0.079,
+    "blobs": 3.0,
+    "spread": 0.16
+   }
+  },
+  {
+   "id": "c155",
+   "start": 1037.18,
+   "end": 1043.49,
+   "dur": 6.3,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.04118,
+    "speech": 0.12,
+    "ball": 1.0,
+    "travel": 0.151,
+    "blobs": 3.5,
+    "spread": 0.46
+   }
+  },
+  {
+   "id": "c156",
+   "start": 1043.49,
+   "end": 1051.43,
+   "dur": 7.94,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.04972,
+    "speech": 0.22,
+    "ball": 1.0,
+    "travel": 0.224,
+    "blobs": 5.0,
+    "spread": 0.85
+   }
+  },
+  {
+   "id": "c157",
+   "start": 1051.43,
+   "end": 1055.56,
+   "dur": 4.14,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.0063,
+    "speech": 0.24,
+    "ball": 1.0,
+    "travel": 0.01,
+    "blobs": 2.0,
+    "spread": 0.19
+   }
+  },
+  {
+   "id": "c158",
+   "start": 1074.38,
+   "end": 1081.78,
+   "dur": 7.4,
+   "type": "coaching",
+   "why": "someone talking on 50% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01018,
+    "speech": 0.5,
+    "ball": 0.97,
+    "travel": 0.032,
+    "blobs": 1.0,
+    "spread": 0.22
+   }
+  },
+  {
+   "id": "c159",
+   "start": 1081.78,
+   "end": 1086.92,
+   "dur": 5.14,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01159,
+    "speech": 0.0,
+    "ball": 0.96,
+    "travel": 0.044,
+    "blobs": 1.0,
+    "spread": 0.19
+   }
+  },
+  {
+   "id": "c160",
+   "start": 1086.92,
+   "end": 1092.52,
+   "dur": 5.6,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": true,
+   "evidence": {
+    "motion": 0.20737,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.2,
+    "blobs": 13.0,
+    "spread": 0.82
+   }
+  },
+  {
+   "id": "c161",
+   "start": 1092.52,
+   "end": 1101.39,
+   "dur": 8.87,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": true,
+   "evidence": {
+    "motion": 0.5003,
+    "speech": 0.23,
+    "ball": 1.0,
+    "travel": 0.181,
+    "blobs": 17.0,
+    "spread": 0.67
+   }
+  },
+  {
+   "id": "c162",
+   "start": 1101.39,
+   "end": 1110.27,
+   "dur": 8.87,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.0662,
+    "speech": 0.08,
+    "ball": 1.0,
+    "travel": 0.038,
+    "blobs": 11.0,
+    "spread": 0.8
+   }
+  },
+  {
+   "id": "c163",
+   "start": 1110.27,
+   "end": 1116.27,
+   "dur": 6.0,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02767,
+    "speech": 0.04,
+    "ball": 1.0,
+    "travel": 0.05,
+    "blobs": 4.0,
+    "spread": 0.62
+   }
+  },
+  {
+   "id": "c164",
+   "start": 1117.57,
+   "end": 1126.38,
+   "dur": 8.81,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01995,
+    "speech": 0.14,
+    "ball": 0.95,
+    "travel": 0.174,
+    "blobs": 6.5,
+    "spread": 0.49
+   }
+  },
+  {
+   "id": "c165",
+   "start": 1126.38,
+   "end": 1130.58,
+   "dur": 4.2,
+   "type": "coaching",
+   "why": "someone talking on 35% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01635,
+    "speech": 0.35,
+    "ball": 0.84,
+    "travel": 0.345,
+    "blobs": 5.0,
+    "spread": 0.52
+   }
+  },
+  {
+   "id": "c166",
+   "start": 1130.58,
+   "end": 1134.78,
+   "dur": 4.2,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02052,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.19,
+    "blobs": 6.0,
+    "spread": 0.64
+   }
+  },
+  {
+   "id": "c167",
+   "start": 1134.78,
+   "end": 1138.99,
+   "dur": 4.2,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.03555,
+    "speech": 0.06,
+    "ball": 1.0,
+    "travel": 0.035,
+    "blobs": 3.0,
+    "spread": 0.65
+   }
+  },
+  {
+   "id": "c168",
+   "start": 1138.99,
+   "end": 1147.63,
+   "dur": 8.64,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.04889,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.084,
+    "blobs": 4.0,
+    "spread": 0.69
+   }
+  },
+  {
+   "id": "c169",
+   "start": 1147.63,
+   "end": 1155.57,
+   "dur": 7.94,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.0165,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.041,
+    "blobs": 4.0,
+    "spread": 0.67
+   }
+  },
+  {
+   "id": "c170",
+   "start": 1155.57,
+   "end": 1160.7,
+   "dur": 5.14,
+   "type": "coaching",
+   "why": "someone talking on 30% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.013,
+    "speech": 0.3,
+    "ball": 1.0,
+    "travel": 0.244,
+    "blobs": 5.0,
+    "spread": 0.56
+   }
+  },
+  {
+   "id": "c171",
+   "start": 1160.7,
+   "end": 1164.9,
+   "dur": 4.2,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01668,
+    "speech": 0.06,
+    "ball": 1.0,
+    "travel": 0.265,
+    "blobs": 4.0,
+    "spread": 0.4
+   }
+  },
+  {
+   "id": "c172",
+   "start": 1164.9,
+   "end": 1173.78,
+   "dur": 8.87,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.04627,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.036,
+    "blobs": 6.0,
+    "spread": 0.56
+   }
+  },
+  {
+   "id": "c173",
+   "start": 1173.78,
+   "end": 1182.18,
+   "dur": 8.41,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.03278,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.091,
+    "blobs": 6.0,
+    "spread": 0.78
+   }
+  },
+  {
+   "id": "c174",
+   "start": 1182.18,
+   "end": 1188.72,
+   "dur": 6.54,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.04178,
+    "speech": 0.04,
+    "ball": 1.0,
+    "travel": 0.027,
+    "blobs": 4.0,
+    "spread": 0.67
+   }
+  },
+  {
+   "id": "c175",
+   "start": 1188.72,
+   "end": 1197.59,
+   "dur": 8.87,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.05101,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.033,
+    "blobs": 6.0,
+    "spread": 0.67
+   }
+  },
+  {
+   "id": "c176",
+   "start": 1197.59,
+   "end": 1201.8,
+   "dur": 4.2,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.03791,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.028,
+    "blobs": 6.0,
+    "spread": 0.67
+   }
+  },
+  {
+   "id": "c177",
+   "start": 1201.8,
+   "end": 1208.1,
+   "dur": 6.3,
+   "type": "coaching",
+   "why": "someone talking on 64% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.04449,
+    "speech": 0.64,
+    "ball": 1.0,
+    "travel": 0.039,
+    "blobs": 5.0,
+    "spread": 0.61
+   }
+  },
+  {
+   "id": "c178",
+   "start": 1208.1,
+   "end": 1214.41,
+   "dur": 6.3,
+   "type": "coaching",
+   "why": "someone talking on 48% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.04357,
+    "speech": 0.48,
+    "ball": 1.0,
+    "travel": 0.027,
+    "blobs": 4.0,
+    "spread": 0.66
+   }
+  },
+  {
+   "id": "c179",
+   "start": 1214.41,
+   "end": 1221.64,
+   "dur": 7.24,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.034,
+    "speech": 0.03,
+    "ball": 1.0,
+    "travel": 0.032,
+    "blobs": 4.0,
+    "spread": 0.69
+   }
+  },
+  {
+   "id": "c180",
+   "start": 1221.64,
+   "end": 1225.85,
+   "dur": 4.2,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02692,
+    "speech": 0.12,
+    "ball": 1.0,
+    "travel": 0.112,
+    "blobs": 2.0,
+    "spread": 0.15
+   }
+  },
+  {
+   "id": "c181",
+   "start": 1225.85,
+   "end": 1232.62,
+   "dur": 6.77,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.03249,
+    "speech": 0.11,
+    "ball": 1.0,
+    "travel": 0.104,
+    "blobs": 2.0,
+    "spread": 0.21
+   }
+  },
+  {
+   "id": "c182",
+   "start": 1232.62,
+   "end": 1237.99,
+   "dur": 5.37,
+   "type": "coaching",
+   "why": "someone talking on 38% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02524,
+    "speech": 0.38,
+    "ball": 0.96,
+    "travel": 0.043,
+    "blobs": 2.0,
+    "spread": 0.12
+   }
+  },
+  {
+   "id": "c183",
+   "start": 1237.99,
+   "end": 1246.86,
+   "dur": 8.87,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02814,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.069,
+    "blobs": 3.0,
+    "spread": 0.17
+   }
+  },
+  {
+   "id": "c184",
+   "start": 1246.86,
+   "end": 1251.06,
+   "dur": 4.2,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01341,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.053,
+    "blobs": 3.0,
+    "spread": 0.11
+   }
+  },
+  {
+   "id": "c185",
+   "start": 1251.06,
+   "end": 1255.27,
+   "dur": 4.2,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01938,
+    "speech": 0.18,
+    "ball": 1.0,
+    "travel": 0.305,
+    "blobs": 8.0,
+    "spread": 0.63
+   }
+  },
+  {
+   "id": "c186",
+   "start": 1255.27,
+   "end": 1264.14,
+   "dur": 8.87,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.0318,
+    "speech": 0.14,
+    "ball": 1.0,
+    "travel": 0.095,
+    "blobs": 4.0,
+    "spread": 0.59
+   }
+  },
+  {
+   "id": "c187",
+   "start": 1264.14,
+   "end": 1268.58,
+   "dur": 4.44,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01809,
+    "speech": 0.11,
+    "ball": 0.95,
+    "travel": 0.293,
+    "blobs": 3.5,
+    "spread": 0.47
+   }
+  },
+  {
+   "id": "c188",
+   "start": 1268.58,
+   "end": 1272.78,
+   "dur": 4.2,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02017,
+    "speech": 0.06,
+    "ball": 1.0,
+    "travel": 0.088,
+    "blobs": 5.0,
+    "spread": 0.37
+   }
+  },
+  {
+   "id": "c189",
+   "start": 1272.78,
+   "end": 1278.85,
+   "dur": 6.07,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.03265,
+    "speech": 0.08,
+    "ball": 0.85,
+    "travel": 0.032,
+    "blobs": 3.0,
+    "spread": 0.43
+   }
+  },
+  {
+   "id": "c190",
+   "start": 1278.85,
+   "end": 1286.56,
+   "dur": 7.71,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.03475,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.058,
+    "blobs": 3.0,
+    "spread": 0.55
+   }
+  },
+  {
+   "id": "c191",
+   "start": 1286.56,
+   "end": 1293.79,
+   "dur": 7.24,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01548,
+    "speech": 0.07,
+    "ball": 0.97,
+    "travel": 0.504,
+    "blobs": 4.0,
+    "spread": 0.59
+   }
+  },
+  {
+   "id": "c192",
+   "start": 1293.79,
+   "end": 1300.8,
+   "dur": 7.0,
+   "type": "coaching",
+   "why": "someone talking on 36% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01791,
+    "speech": 0.36,
+    "ball": 1.0,
+    "travel": 0.084,
+    "blobs": 5.0,
+    "spread": 0.62
+   }
+  },
+  {
+   "id": "c193",
+   "start": 1300.8,
+   "end": 1306.64,
+   "dur": 5.84,
+   "type": "coaching",
+   "why": "someone talking on 30% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02195,
+    "speech": 0.3,
+    "ball": 1.0,
+    "travel": 0.139,
+    "blobs": 4.0,
+    "spread": 0.48
+   }
+  },
+  {
+   "id": "c194",
+   "start": 1306.64,
+   "end": 1315.28,
+   "dur": 8.64,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.03628,
+    "speech": 0.11,
+    "ball": 1.0,
+    "travel": 0.036,
+    "blobs": 3.5,
+    "spread": 0.62
+   }
+  },
+  {
+   "id": "c195",
+   "start": 1315.28,
+   "end": 1321.11,
+   "dur": 5.84,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01783,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.097,
+    "blobs": 3.0,
+    "spread": 0.54
+   }
+  },
+  {
+   "id": "c196",
+   "start": 1321.11,
+   "end": 1329.05,
+   "dur": 7.94,
+   "type": "coaching",
+   "why": "someone talking on 34% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01685,
+    "speech": 0.34,
+    "ball": 0.71,
+    "travel": 0.074,
+    "blobs": 4.0,
+    "spread": 0.55
+   }
+  },
+  {
+   "id": "c197",
+   "start": 1329.05,
+   "end": 1333.25,
+   "dur": 4.2,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01882,
+    "speech": 0.18,
+    "ball": 0.68,
+    "travel": 0.284,
+    "blobs": 4.0,
+    "spread": 0.37
+   }
+  },
+  {
+   "id": "c198",
+   "start": 1333.25,
+   "end": 1342.13,
+   "dur": 8.87,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.03688,
+    "speech": 0.23,
+    "ball": 1.0,
+    "travel": 0.048,
+    "blobs": 3.0,
+    "spread": 0.54
+   }
+  },
+  {
+   "id": "c199",
+   "start": 1342.13,
+   "end": 1348.43,
+   "dur": 6.3,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.0177,
+    "speech": 0.04,
+    "ball": 1.0,
+    "travel": 0.069,
+    "blobs": 3.0,
+    "spread": 0.53
+   }
+  },
+  {
+   "id": "c200",
+   "start": 1348.43,
+   "end": 1356.14,
+   "dur": 7.71,
+   "type": "coaching",
+   "why": "someone talking on 39% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01722,
+    "speech": 0.39,
+    "ball": 1.0,
+    "travel": 0.183,
+    "blobs": 5.0,
+    "spread": 0.52
+   }
+  },
+  {
+   "id": "c201",
+   "start": 1356.14,
+   "end": 1360.34,
+   "dur": 4.2,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01807,
+    "speech": 0.12,
+    "ball": 1.0,
+    "travel": 0.111,
+    "blobs": 4.0,
+    "spread": 0.41
+   }
+  },
+  {
+   "id": "c202",
+   "start": 1360.34,
+   "end": 1364.54,
+   "dur": 4.2,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.0238,
+    "speech": 0.12,
+    "ball": 0.84,
+    "travel": 0.021,
+    "blobs": 4.0,
+    "spread": 0.41
+   }
+  },
+  {
+   "id": "c203",
+   "start": 1364.54,
+   "end": 1372.95,
+   "dur": 8.41,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.04272,
+    "speech": 0.18,
+    "ball": 0.97,
+    "travel": 0.04,
+    "blobs": 4.0,
+    "spread": 0.56
+   }
+  },
+  {
+   "id": "c204",
+   "start": 1372.95,
+   "end": 1378.02,
+   "dur": 5.07,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02514,
+    "speech": 0.0,
+    "ball": 0.86,
+    "travel": 0.052,
+    "blobs": 3.0,
+    "spread": 0.52
+   }
+  },
+  {
+   "id": "c205",
+   "start": 1380.72,
+   "end": 1384.86,
+   "dur": 4.14,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01601,
+    "speech": 0.12,
+    "ball": 0.94,
+    "travel": 0.262,
+    "blobs": 4.5,
+    "spread": 0.51
+   }
+  },
+  {
+   "id": "c206",
+   "start": 1384.86,
+   "end": 1390.46,
+   "dur": 5.6,
+   "type": "coaching",
+   "why": "someone talking on 32% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.03262,
+    "speech": 0.32,
+    "ball": 0.92,
+    "travel": 0.03,
+    "blobs": 3.0,
+    "spread": 0.33
+   }
+  },
+  {
+   "id": "c207",
+   "start": 1390.46,
+   "end": 1398.63,
+   "dur": 8.17,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.04291,
+    "speech": 0.12,
+    "ball": 1.0,
+    "travel": 0.062,
+    "blobs": 2.0,
+    "spread": 0.51
+   }
+  },
+  {
+   "id": "c208",
+   "start": 1398.63,
+   "end": 1403.77,
+   "dur": 5.14,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.03427,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.033,
+    "blobs": 2.0,
+    "spread": 0.53
+   }
+  },
+  {
+   "id": "c209",
+   "start": 1403.77,
+   "end": 1411.47,
+   "dur": 7.7,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.03531,
+    "speech": 0.03,
+    "ball": 1.0,
+    "travel": 0.069,
+    "blobs": 3.0,
+    "spread": 0.52
+   }
+  },
+  {
+   "id": "c210",
+   "start": 1411.47,
+   "end": 1415.61,
+   "dur": 4.14,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01612,
+    "speech": 0.06,
+    "ball": 1.0,
+    "travel": 0.063,
+    "blobs": 2.0,
+    "spread": 0.15
+   }
+  },
+  {
+   "id": "c211",
+   "start": 1418.08,
+   "end": 1422.22,
+   "dur": 4.14,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01402,
+    "speech": 0.19,
+    "ball": 1.0,
+    "travel": 0.259,
+    "blobs": 5.0,
+    "spread": 0.41
+   }
+  },
+  {
+   "id": "c212",
+   "start": 1422.22,
+   "end": 1431.09,
+   "dur": 8.87,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.03625,
+    "speech": 0.25,
+    "ball": 1.0,
+    "travel": 0.039,
+    "blobs": 4.0,
+    "spread": 0.42
+   }
+  },
+  {
+   "id": "c213",
+   "start": 1431.09,
+   "end": 1435.29,
+   "dur": 4.2,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01782,
+    "speech": 0.06,
+    "ball": 1.0,
+    "travel": 0.029,
+    "blobs": 3.0,
+    "spread": 0.44
+   }
+  },
+  {
+   "id": "c214",
+   "start": 1435.29,
+   "end": 1441.83,
+   "dur": 6.54,
+   "type": "coaching",
+   "why": "someone talking on 42% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01906,
+    "speech": 0.42,
+    "ball": 0.97,
+    "travel": 0.07,
+    "blobs": 3.0,
+    "spread": 0.38
+   }
+  },
+  {
+   "id": "c215",
+   "start": 1441.83,
+   "end": 1446.03,
+   "dur": 4.2,
+   "type": "coaching",
+   "why": "someone talking on 76% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01824,
+    "speech": 0.76,
+    "ball": 1.0,
+    "travel": 0.031,
+    "blobs": 5.0,
+    "spread": 0.38
+   }
+  },
+  {
+   "id": "c216",
+   "start": 1446.03,
+   "end": 1454.67,
+   "dur": 8.64,
+   "type": "coaching",
+   "why": "someone talking on 56% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.04966,
+    "speech": 0.56,
+    "ball": 1.0,
+    "travel": 0.047,
+    "blobs": 3.0,
+    "spread": 0.37
+   }
+  },
+  {
+   "id": "c217",
+   "start": 1454.67,
+   "end": 1463.54,
+   "dur": 8.87,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.04411,
+    "speech": 0.17,
+    "ball": 1.0,
+    "travel": 0.08,
+    "blobs": 3.0,
+    "spread": 0.52
+   }
+  },
+  {
+   "id": "c218",
+   "start": 1463.54,
+   "end": 1467.75,
+   "dur": 4.2,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01918,
+    "speech": 0.12,
+    "ball": 0.74,
+    "travel": 0.076,
+    "blobs": 3.0,
+    "spread": 0.51
+   }
+  },
+  {
+   "id": "c219",
+   "start": 1467.75,
+   "end": 1474.98,
+   "dur": 7.24,
+   "type": "coaching",
+   "why": "someone talking on 41% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02393,
+    "speech": 0.41,
+    "ball": 0.97,
+    "travel": 0.227,
+    "blobs": 6.0,
+    "spread": 0.63
+   }
+  },
+  {
+   "id": "c220",
+   "start": 1474.98,
+   "end": 1483.16,
+   "dur": 8.17,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.029,
+    "speech": 0.21,
+    "ball": 1.0,
+    "travel": 0.044,
+    "blobs": 3.0,
+    "spread": 0.29
+   }
+  },
+  {
+   "id": "c221",
+   "start": 1483.16,
+   "end": 1487.36,
+   "dur": 4.2,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02533,
+    "speech": 0.06,
+    "ball": 1.0,
+    "travel": 0.022,
+    "blobs": 2.0,
+    "spread": 0.13
+   }
+  },
+  {
+   "id": "c222",
+   "start": 1487.36,
+   "end": 1491.56,
+   "dur": 4.2,
+   "type": "coaching",
+   "why": "someone talking on 71% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.03333,
+    "speech": 0.71,
+    "ball": 1.0,
+    "travel": 0.125,
+    "blobs": 4.0,
+    "spread": 0.34
+   }
+  },
+  {
+   "id": "c223",
+   "start": 1491.56,
+   "end": 1500.44,
+   "dur": 8.87,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.0521,
+    "speech": 0.23,
+    "ball": 1.0,
+    "travel": 0.036,
+    "blobs": 3.0,
+    "spread": 0.58
+   }
+  },
+  {
+   "id": "c224",
+   "start": 1500.44,
+   "end": 1508.38,
+   "dur": 7.94,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02475,
+    "speech": 0.03,
+    "ball": 0.97,
+    "travel": 0.062,
+    "blobs": 3.0,
+    "spread": 0.6
+   }
+  },
+  {
+   "id": "c225",
+   "start": 1508.38,
+   "end": 1513.98,
+   "dur": 5.6,
+   "type": "coaching",
+   "why": "someone talking on 55% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01393,
+    "speech": 0.55,
+    "ball": 1.0,
+    "travel": 0.257,
+    "blobs": 4.0,
+    "spread": 0.56
+   }
+  },
+  {
+   "id": "c226",
+   "start": 1513.98,
+   "end": 1518.41,
+   "dur": 4.44,
+   "type": "coaching",
+   "why": "someone talking on 61% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01615,
+    "speech": 0.61,
+    "ball": 1.0,
+    "travel": 0.036,
+    "blobs": 4.0,
+    "spread": 0.53
+   }
+  },
+  {
+   "id": "c227",
+   "start": 1518.41,
+   "end": 1527.29,
+   "dur": 8.87,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01839,
+    "speech": 0.06,
+    "ball": 1.0,
+    "travel": 0.036,
+    "blobs": 3.0,
+    "spread": 0.22
+   }
+  },
+  {
+   "id": "c228",
+   "start": 1527.29,
+   "end": 1532.89,
+   "dur": 5.6,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01143,
+    "speech": 0.0,
+    "ball": 0.76,
+    "travel": 0.011,
+    "blobs": 2.0,
+    "spread": 0.1
+   }
+  },
+  {
+   "id": "c229",
+   "start": 1532.89,
+   "end": 1540.83,
+   "dur": 7.94,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01102,
+    "speech": 0.0,
+    "ball": 0.89,
+    "travel": 0.012,
+    "blobs": 1.0,
+    "spread": 0.08
+   }
+  },
+  {
+   "id": "c230",
+   "start": 1540.83,
+   "end": 1548.3,
+   "dur": 7.47,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01081,
+    "speech": 0.03,
+    "ball": 1.0,
+    "travel": 0.028,
+    "blobs": 2.0,
+    "spread": 0.09
+   }
+  },
+  {
+   "id": "c231",
+   "start": 1548.3,
+   "end": 1554.61,
+   "dur": 6.3,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01039,
+    "speech": 0.2,
+    "ball": 0.68,
+    "travel": 0.082,
+    "blobs": 4.0,
+    "spread": 0.17
+   }
+  },
+  {
+   "id": "c232",
+   "start": 1554.61,
+   "end": 1561.14,
+   "dur": 6.54,
+   "type": "coaching",
+   "why": "someone talking on 42% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.00903,
+    "speech": 0.42,
+    "ball": 0.93,
+    "travel": 0.024,
+    "blobs": 2.0,
+    "spread": 0.09
+   }
+  },
+  {
+   "id": "c233",
+   "start": 1561.14,
+   "end": 1566.28,
+   "dur": 5.14,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.00719,
+    "speech": 0.05,
+    "ball": 1.0,
+    "travel": 0.019,
+    "blobs": 2.0,
+    "spread": 0.07
+   }
+  },
+  {
+   "id": "c234",
+   "start": 1566.28,
+   "end": 1570.48,
+   "dur": 4.2,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.00605,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.09,
+    "blobs": 2.0,
+    "spread": 0.11
+   }
+  },
+  {
+   "id": "c235",
+   "start": 1570.48,
+   "end": 1578.66,
+   "dur": 8.17,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.00885,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.044,
+    "blobs": 4.0,
+    "spread": 0.13
+   }
+  },
+  {
+   "id": "c236",
+   "start": 1578.66,
+   "end": 1582.86,
+   "dur": 4.2,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.00546,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.028,
+    "blobs": 3.0,
+    "spread": 0.09
+   }
+  },
+  {
+   "id": "c237",
+   "start": 1582.86,
+   "end": 1591.73,
+   "dur": 8.87,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.00428,
+    "speech": 0.03,
+    "ball": 0.92,
+    "travel": 0.06,
+    "blobs": 3.0,
+    "spread": 0.12
+   }
+  },
+  {
+   "id": "c238",
+   "start": 1591.73,
+   "end": 1596.4,
+   "dur": 4.67,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.00355,
+    "speech": 0.0,
+    "ball": 0.9,
+    "travel": 0.014,
+    "blobs": 4.0,
+    "spread": 0.13
+   }
+  },
+  {
+   "id": "c239",
+   "start": 1596.4,
+   "end": 1605.28,
+   "dur": 8.87,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.00407,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.028,
+    "blobs": 2.0,
+    "spread": 0.09
+   }
+  },
+  {
+   "id": "c240",
+   "start": 1605.28,
+   "end": 1610.41,
+   "dur": 5.14,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.00404,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.092,
+    "blobs": 5.0,
+    "spread": 0.14
+   }
+  },
+  {
+   "id": "c241",
+   "start": 1610.41,
+   "end": 1617.42,
+   "dur": 7.0,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.0086,
+    "speech": 0.0,
+    "ball": 0.97,
+    "travel": 0.054,
+    "blobs": 3.0,
+    "spread": 0.11
+   }
+  },
+  {
+   "id": "c242",
+   "start": 1617.42,
+   "end": 1621.62,
+   "dur": 4.2,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01494,
+    "speech": 0.0,
+    "ball": 0.95,
+    "travel": 0.109,
+    "blobs": 3.0,
+    "spread": 0.15
+   }
+  },
+  {
+   "id": "c243",
+   "start": 1621.62,
+   "end": 1630.49,
+   "dur": 8.87,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.0456,
+    "speech": 0.17,
+    "ball": 1.0,
+    "travel": 0.112,
+    "blobs": 5.0,
+    "spread": 0.38
+   }
+  },
+  {
+   "id": "c244",
+   "start": 1630.49,
+   "end": 1639.37,
+   "dur": 8.87,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.03897,
+    "speech": 0.25,
+    "ball": 1.0,
+    "travel": 0.118,
+    "blobs": 4.0,
+    "spread": 0.62
+   }
+  },
+  {
+   "id": "c245",
+   "start": 1639.37,
+   "end": 1644.97,
+   "dur": 5.6,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02651,
+    "speech": 0.09,
+    "ball": 1.0,
+    "travel": 0.023,
+    "blobs": 7.0,
+    "spread": 0.5
+   }
+  },
+  {
+   "id": "c246",
+   "start": 1644.97,
+   "end": 1653.84,
+   "dur": 8.87,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.03389,
+    "speech": 0.25,
+    "ball": 1.0,
+    "travel": 0.184,
+    "blobs": 8.0,
+    "spread": 0.71
+   }
+  },
+  {
+   "id": "c247",
+   "start": 1653.84,
+   "end": 1661.55,
+   "dur": 7.71,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02136,
+    "speech": 0.1,
+    "ball": 1.0,
+    "travel": 0.019,
+    "blobs": 7.0,
+    "spread": 0.6
+   }
+  },
+  {
+   "id": "c248",
+   "start": 1661.55,
+   "end": 1670.42,
+   "dur": 8.87,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02958,
+    "speech": 0.17,
+    "ball": 1.0,
+    "travel": 0.092,
+    "blobs": 7.0,
+    "spread": 0.49
+   }
+  },
+  {
+   "id": "c249",
+   "start": 1670.42,
+   "end": 1676.72,
+   "dur": 6.3,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01934,
+    "speech": 0.24,
+    "ball": 1.0,
+    "travel": 0.012,
+    "blobs": 6.0,
+    "spread": 0.45
+   }
+  },
+  {
+   "id": "c250",
+   "start": 1676.72,
+   "end": 1683.96,
+   "dur": 7.24,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01924,
+    "speech": 0.24,
+    "ball": 0.94,
+    "travel": 0.023,
+    "blobs": 5.0,
+    "spread": 0.58
+   }
+  },
+  {
+   "id": "c251",
+   "start": 1683.96,
+   "end": 1689.33,
+   "dur": 5.37,
+   "type": "coaching",
+   "why": "someone talking on 50% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01551,
+    "speech": 0.5,
+    "ball": 1.0,
+    "travel": 0.023,
+    "blobs": 5.0,
+    "spread": 0.42
+   }
+  },
+  {
+   "id": "c252",
+   "start": 1689.33,
+   "end": 1698.21,
+   "dur": 8.87,
+   "type": "coaching",
+   "why": "someone talking on 34% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02759,
+    "speech": 0.34,
+    "ball": 1.0,
+    "travel": 0.02,
+    "blobs": 6.0,
+    "spread": 0.4
+   }
+  },
+  {
+   "id": "c253",
+   "start": 1698.21,
+   "end": 1705.68,
+   "dur": 7.47,
+   "type": "coaching",
+   "why": "someone talking on 47% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01481,
+    "speech": 0.47,
+    "ball": 0.91,
+    "travel": 0.046,
+    "blobs": 6.0,
+    "spread": 0.37
+   }
+  },
+  {
+   "id": "c254",
+   "start": 1705.68,
+   "end": 1709.88,
+   "dur": 4.2,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01245,
+    "speech": 0.12,
+    "ball": 0.95,
+    "travel": 0.152,
+    "blobs": 8.0,
+    "spread": 0.35
+   }
+  },
+  {
+   "id": "c255",
+   "start": 1709.88,
+   "end": 1714.32,
+   "dur": 4.44,
+   "type": "coaching",
+   "why": "someone talking on 39% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01601,
+    "speech": 0.39,
+    "ball": 1.0,
+    "travel": 0.019,
+    "blobs": 7.5,
+    "spread": 0.36
+   }
+  },
+  {
+   "id": "c256",
+   "start": 1714.32,
+   "end": 1721.32,
+   "dur": 7.0,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01723,
+    "speech": 0.21,
+    "ball": 1.0,
+    "travel": 0.064,
+    "blobs": 8.0,
+    "spread": 0.37
+   }
+  },
+  {
+   "id": "c257",
+   "start": 1721.32,
+   "end": 1727.86,
+   "dur": 6.54,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01793,
+    "speech": 0.15,
+    "ball": 1.0,
+    "travel": 0.207,
+    "blobs": 7.0,
+    "spread": 0.46
+   }
+  },
+  {
+   "id": "c258",
+   "start": 1727.86,
+   "end": 1734.4,
+   "dur": 6.54,
+   "type": "coaching",
+   "why": "someone talking on 27% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.023,
+    "speech": 0.27,
+    "ball": 1.0,
+    "travel": 0.18,
+    "blobs": 7.0,
+    "spread": 0.52
+   }
+  },
+  {
+   "id": "c259",
+   "start": 1734.4,
+   "end": 1743.27,
+   "dur": 8.87,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02424,
+    "speech": 0.17,
+    "ball": 1.0,
+    "travel": 0.268,
+    "blobs": 6.0,
+    "spread": 0.47
+   }
+  },
+  {
+   "id": "c260",
+   "start": 1743.27,
+   "end": 1751.44,
+   "dur": 8.17,
+   "type": "coaching",
+   "why": "someone talking on 28% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01908,
+    "speech": 0.28,
+    "ball": 1.0,
+    "travel": 0.108,
+    "blobs": 8.0,
+    "spread": 0.41
+   }
+  },
+  {
+   "id": "c261",
+   "start": 1751.44,
+   "end": 1757.75,
+   "dur": 6.3,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.0188,
+    "speech": 0.04,
+    "ball": 1.0,
+    "travel": 0.134,
+    "blobs": 8.5,
+    "spread": 0.44
+   }
+  },
+  {
+   "id": "c262",
+   "start": 1757.75,
+   "end": 1764.99,
+   "dur": 7.24,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.0277,
+    "speech": 0.07,
+    "ball": 1.0,
+    "travel": 0.195,
+    "blobs": 5.0,
+    "spread": 0.35
+   }
+  },
+  {
+   "id": "c263",
+   "start": 1764.99,
+   "end": 1771.52,
+   "dur": 6.54,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02266,
+    "speech": 0.04,
+    "ball": 1.0,
+    "travel": 0.21,
+    "blobs": 6.0,
+    "spread": 0.43
+   }
+  },
+  {
+   "id": "c264",
+   "start": 1771.52,
+   "end": 1776.43,
+   "dur": 4.9,
+   "type": "coaching",
+   "why": "someone talking on 26% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02793,
+    "speech": 0.26,
+    "ball": 1.0,
+    "travel": 0.024,
+    "blobs": 4.0,
+    "spread": 0.24
+   }
+  },
+  {
+   "id": "c265",
+   "start": 1776.43,
+   "end": 1780.86,
+   "dur": 4.44,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.02902,
+    "speech": 0.11,
+    "ball": 1.0,
+    "travel": 0.106,
+    "blobs": 4.0,
+    "spread": 0.17
+   }
+  },
+  {
+   "id": "c266",
+   "start": 1780.86,
+   "end": 1785.53,
+   "dur": 4.67,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.03804,
+    "speech": 0.21,
+    "ball": 0.81,
+    "travel": 0.176,
+    "blobs": 7.0,
+    "spread": 0.41
+   }
+  },
+  {
+   "id": "c267",
+   "start": 1785.53,
+   "end": 1790.37,
+   "dur": 4.84,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.03465,
+    "speech": 0.0,
+    "ball": 0.95,
+    "travel": 0.18,
+    "blobs": 4.0,
+    "spread": 0.57
+   }
+  },
+  {
+   "id": "c268",
+   "start": 1794.01,
+   "end": 1799.31,
+   "dur": 5.3,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01523,
+    "speech": 0.14,
+    "ball": 1.0,
+    "travel": 0.152,
+    "blobs": 4.0,
+    "spread": 0.19
+   }
+  },
+  {
+   "id": "c269",
+   "start": 1799.31,
+   "end": 1806.55,
+   "dur": 7.24,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01942,
+    "speech": 0.1,
+    "ball": 1.0,
+    "travel": 0.074,
+    "blobs": 4.0,
+    "spread": 0.21
+   }
+  },
+  {
+   "id": "c270",
+   "start": 1806.55,
+   "end": 1815.42,
+   "dur": 8.87,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01065,
+    "speech": 0.03,
+    "ball": 0.72,
+    "travel": 0.033,
+    "blobs": 4.0,
+    "spread": 0.14
+   }
+  },
+  {
+   "id": "c271",
+   "start": 1815.42,
+   "end": 1823.13,
+   "dur": 7.7,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01058,
+    "speech": 0.0,
+    "ball": 0.47,
+    "travel": 0.017,
+    "blobs": 3.0,
+    "spread": 0.11
+   }
+  },
+  {
+   "id": "c272",
+   "start": 1823.13,
+   "end": 1832.0,
+   "dur": 8.87,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.0136,
+    "speech": 0.0,
+    "ball": 0.74,
+    "travel": 0.014,
+    "blobs": 4.0,
+    "spread": 0.21
+   }
+  },
+  {
+   "id": "c273",
+   "start": 1832.0,
+   "end": 1836.37,
+   "dur": 4.37,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.00846,
+    "speech": 0.0,
+    "ball": 0.26,
+    "travel": 0.039,
+    "blobs": 4.0,
+    "spread": 0.16
+   }
+  },
+  {
+   "id": "c274",
+   "start": 1847.01,
+   "end": 1854.88,
+   "dur": 7.87,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01092,
+    "speech": 0.0,
+    "ball": 0.62,
+    "travel": 0.036,
+    "blobs": 3.0,
+    "spread": 0.14
+   }
+  },
+  {
+   "id": "c275",
+   "start": 1854.88,
+   "end": 1861.35,
+   "dur": 6.47,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.00721,
+    "speech": 0.04,
+    "ball": 0.39,
+    "travel": 0.014,
+    "blobs": 2.0,
+    "spread": 0.05
+   }
+  },
+  {
+   "id": "c276",
+   "start": 1862.19,
+   "end": 1870.99,
+   "dur": 8.81,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.00891,
+    "speech": 0.03,
+    "ball": 0.89,
+    "travel": 0.019,
+    "blobs": 2.0,
+    "spread": 0.1
+   }
+  },
+  {
+   "id": "c277",
+   "start": 1870.99,
+   "end": 1875.66,
+   "dur": 4.67,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.00627,
+    "speech": 0.0,
+    "ball": 0.52,
+    "travel": 0.01,
+    "blobs": 3.0,
+    "spread": 0.1
+   }
+  },
+  {
+   "id": "c278",
+   "start": 1875.66,
+   "end": 1884.54,
+   "dur": 8.87,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.00963,
+    "speech": 0.08,
+    "ball": 0.87,
+    "travel": 0.032,
+    "blobs": 4.0,
+    "spread": 0.15
+   }
+  },
+  {
+   "id": "c279",
+   "start": 1884.54,
+   "end": 1889.44,
+   "dur": 4.9,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.00489,
+    "speech": 0.11,
+    "ball": 0.86,
+    "travel": 0.072,
+    "blobs": 3.0,
+    "spread": 0.1
+   }
+  },
+  {
+   "id": "c280",
+   "start": 1889.44,
+   "end": 1896.91,
+   "dur": 7.47,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.0086,
+    "speech": 0.0,
+    "ball": 0.97,
+    "travel": 0.024,
+    "blobs": 2.0,
+    "spread": 0.15
+   }
+  },
+  {
+   "id": "c281",
+   "start": 1896.91,
+   "end": 1901.51,
+   "dur": 4.6,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.00706,
+    "speech": 0.05,
+    "ball": 0.45,
+    "travel": 0.011,
+    "blobs": 3.0,
+    "spread": 0.15
+   }
+  },
+  {
+   "id": "c282",
+   "start": 1903.28,
+   "end": 1909.75,
+   "dur": 6.47,
+   "type": "coaching",
+   "why": "someone talking on 46% of the clip",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.00692,
+    "speech": 0.46,
+    "ball": 1.0,
+    "travel": 0.078,
+    "blobs": 4.0,
+    "spread": 0.21
+   }
+  },
+  {
+   "id": "c283",
+   "start": 1909.75,
+   "end": 1914.42,
+   "dur": 4.67,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.00732,
+    "speech": 0.06,
+    "ball": 1.0,
+    "travel": 0.062,
+    "blobs": 3.0,
+    "spread": 0.14
+   }
+  },
+  {
+   "id": "c284",
+   "start": 1914.42,
+   "end": 1918.62,
+   "dur": 4.2,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.00724,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.009,
+    "blobs": 3.0,
+    "spread": 0.12
+   }
+  },
+  {
+   "id": "c285",
+   "start": 1918.62,
+   "end": 1926.33,
+   "dur": 7.71,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01199,
+    "speech": 0.0,
+    "ball": 0.97,
+    "travel": 0.111,
+    "blobs": 3.0,
+    "spread": 0.18
+   }
+  },
+  {
+   "id": "c286",
+   "start": 1926.33,
+   "end": 1930.53,
+   "dur": 4.2,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.00756,
+    "speech": 0.0,
+    "ball": 0.68,
+    "travel": 0.086,
+    "blobs": 2.0,
+    "spread": 0.08
+   }
+  },
+  {
+   "id": "c287",
+   "start": 1930.53,
+   "end": 1937.77,
+   "dur": 7.24,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.0073,
+    "speech": 0.21,
+    "ball": 1.0,
+    "travel": 0.005,
+    "blobs": 2.0,
+    "spread": 0.11
+   }
+  },
+  {
+   "id": "c288",
+   "start": 1937.77,
+   "end": 1944.31,
+   "dur": 6.54,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.00979,
+    "speech": 0.08,
+    "ball": 1.0,
+    "travel": 0.009,
+    "blobs": 3.0,
+    "spread": 0.15
+   }
+  },
+  {
+   "id": "c289",
+   "start": 1944.31,
+   "end": 1951.78,
+   "dur": 7.47,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.00912,
+    "speech": 0.0,
+    "ball": 0.94,
+    "travel": 0.092,
+    "blobs": 3.0,
+    "spread": 0.13
+   }
+  },
+  {
+   "id": "c290",
+   "start": 1951.78,
+   "end": 1956.15,
+   "dur": 4.37,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.00552,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.128,
+    "blobs": 3.0,
+    "spread": 0.12
+   }
+  },
+  {
+   "id": "c291",
+   "start": 1963.52,
+   "end": 1968.36,
+   "dur": 4.84,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.00639,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.037,
+    "blobs": 2.0,
+    "spread": 0.14
+   }
+  },
+  {
+   "id": "c292",
+   "start": 1968.36,
+   "end": 1977.0,
+   "dur": 8.64,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.00992,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.01,
+    "blobs": 3.0,
+    "spread": 0.21
+   }
+  },
+  {
+   "id": "c293",
+   "start": 1977.0,
+   "end": 1981.2,
+   "dur": 4.2,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.00822,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.021,
+    "blobs": 3.0,
+    "spread": 0.17
+   }
+  },
+  {
+   "id": "c294",
+   "start": 1981.2,
+   "end": 1986.11,
+   "dur": 4.9,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.00934,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.013,
+    "blobs": 2.5,
+    "spread": 0.22
+   }
+  },
+  {
+   "id": "c295",
+   "start": 1986.11,
+   "end": 1990.31,
+   "dur": 4.2,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01158,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.071,
+    "blobs": 3.0,
+    "spread": 0.16
+   }
+  },
+  {
+   "id": "c296",
+   "start": 1990.31,
+   "end": 1994.51,
+   "dur": 4.2,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.01656,
+    "speech": 0.18,
+    "ball": 1.0,
+    "travel": 0.008,
+    "blobs": 2.0,
+    "spread": 0.1
+   }
+  },
+  {
+   "id": "c297",
+   "start": 1994.51,
+   "end": 1998.71,
+   "dur": 4.2,
+   "type": "ball handling",
+   "why": "players working mostly in place",
+   "chunk_of_drill": true,
+   "shared_frame": false,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.0293,
+    "speech": 0.0,
+    "ball": 1.0,
+    "travel": 0.035,
+    "blobs": 4.0,
+    "spread": 0.25
+   }
+  },
+  {
+   "id": "c298",
+   "start": 1998.71,
+   "end": 2006.82,
+   "dur": 8.11,
+   "type": "live rep",
+   "why": "players travelling across the court",
+   "chunk_of_drill": true,
+   "shared_frame": true,
+   "blocked_view": false,
+   "evidence": {
+    "motion": 0.0998,
+    "speech": 0.24,
+    "ball": 0.89,
+    "travel": 0.212,
+    "blobs": 22.0,
+    "spread": 0.84
+   }
+  }
+ ],
+ "downtime": [
+  [
+   87.0,
+   88.8
+  ],
+  [
+   201.7,
+   205.1
+  ],
+  [
+   220.4,
+   222.4
+  ],
+  [
+   259.6,
+   265.3
+  ],
+  [
+   385.4,
+   388.4
+  ],
+  [
+   464.4,
+   470.1
+  ],
+  [
+   577.8,
+   582.2
+  ],
+  [
+   609.8,
+   624.0
+  ],
+  [
+   680.6,
+   698.2
+  ],
+  [
+   792.4,
+   797.4
+  ],
+  [
+   1055.6,
+   1074.4
+  ],
+  [
+   1378.0,
+   1380.7
+  ],
+  [
+   1415.6,
+   1418.1
+  ],
+  [
+   1790.4,
+   1794.0
+  ],
+  [
+   1836.4,
+   1847.0
+  ],
+  [
+   1901.5,
+   1903.3
+  ],
+  [
+   1956.2,
+   1963.5
+  ],
+  [
+   2006.8,
+   2009.5
+  ]
+ ],
+ "counts": {
+  "live rep": 143,
+  "ball handling": 92,
+  "coaching": 63
+ },
+ "kept_seconds": 1888.5,
+ "session_seconds": 2009.5
+}
